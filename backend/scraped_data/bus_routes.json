@@ -1,0 +1,5721 @@
+[
+  {
+    "time": "00:00",
+    "destination": "БЕЛГРАД",
+    "carrier": "ФУДЕКС",
+    "price": 1650,
+    "returnPrice": 3250
+  },
+  {
+    "time": "05:30",
+    "destination": "ГОСТИВАР",
+    "carrier": "ВАКЧАРЕ СТРУГА",
+    "price": 270,
+    "returnPrice": 0
+  },
+  {
+    "time": "05:30",
+    "destination": "КИЧЕВО",
+    "carrier": "ВАКЧАРЕ СТРУГА",
+    "price": 480,
+    "returnPrice": 680
+  },
+  {
+    "time": "05:30",
+    "destination": "СТРУГА",
+    "carrier": "ВАКЧАРЕ СТРУГА",
+    "price": 730,
+    "returnPrice": 930
+  },
+  {
+    "time": "05:30",
+    "destination": "ТЕТОВО",
+    "carrier": "ВАКЧАРЕ СТРУГА",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:00",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:00",
+    "destination": "БИТОЛА",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 730,
+    "returnPrice": 1020
+  },
+  {
+    "time": "06:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 210,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:00",
+    "destination": "ГРАДСКО",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:00",
+    "destination": "ДУКАТИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:00",
+    "destination": "КАВАДАРЦИ",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 470,
+    "returnPrice": 690
+  },
+  {
+    "time": "06:00",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:00",
+    "destination": "ОХРИД ( преку Битола )",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 970,
+    "returnPrice": 1460
+  },
+  {
+    "time": "06:00",
+    "destination": "ПРИЛЕП",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 560,
+    "returnPrice": 970
+  },
+  {
+    "time": "06:00",
+    "destination": "РЕСЕН",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 800,
+    "returnPrice": 1240
+  },
+  {
+    "time": "06:00",
+    "destination": "РОСОМАН",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 460,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:00",
+    "destination": "СТРУМИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 680,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:00",
+    "destination": "РАДОВИШ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 580,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:00",
+    "destination": "ШТИП",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:00",
+    "destination": "ОВЧЕ ПОЛЕ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:00",
+    "destination": "ЛОЗОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:05",
+    "destination": "ГРУПЧИН",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 140,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:05",
+    "destination": "ЖЕЛИНО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:05",
+    "destination": "ТЕТОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "06:30",
+    "destination": "ОХРИД",
+    "carrier": "КЛАСИК",
+    "price": 850,
+    "returnPrice": 1200
+  },
+  {
+    "time": "07:00",
+    "destination": "ЌУСТЕНДИЛ",
+    "carrier": "ХИСАР ТУРИЗАМ ВИП",
+    "price": 1430,
+    "returnPrice": 2480
+  },
+  {
+    "time": "07:00",
+    "destination": "ГОСТИВАР",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "07:00",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "07:00",
+    "destination": "СОФИЈА",
+    "carrier": "ХИСАР ТУРИЗАМ ВИП",
+    "price": 1600,
+    "returnPrice": 2780
+  },
+  {
+    "time": "07:15",
+    "destination": "ГРУПЧИН",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 140,
+    "returnPrice": 0
+  },
+  {
+    "time": "07:15",
+    "destination": "ЖЕЛИНО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "07:15",
+    "destination": "ТЕТОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "07:30",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "07:30",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "07:30",
+    "destination": "МЛАДО НАГОРИЧАНИ",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "07:30",
+    "destination": "ОБЛАВЦЕ-КР.ПАЛАНКА",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "07:30",
+    "destination": "ОРАХ",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "07:30",
+    "destination": "РАТОВИЦА",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "07:30",
+    "destination": "РУГИНЦЕ",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "07:45",
+    "destination": "КУМАНОВО",
+    "carrier": "ШТУЗ КУМАНОВО",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "07:45",
+    "destination": "БЕЛГРАД",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 2110,
+    "returnPrice": 3430
+  },
+  {
+    "time": "07:45",
+    "destination": "БУЈАНОВАЦ",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 570,
+    "returnPrice": 900
+  },
+  {
+    "time": "07:45",
+    "destination": "ВЛАДИЧИН ХАН",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 790,
+    "returnPrice": 1260
+  },
+  {
+    "time": "07:45",
+    "destination": "ВРАЊЕ",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 1130
+  },
+  {
+    "time": "07:45",
+    "destination": "ЛЕСКОВАЦ",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 970,
+    "returnPrice": 1580
+  },
+  {
+    "time": "07:45",
+    "destination": "НИШ",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 1170,
+    "returnPrice": 1920
+  },
+  {
+    "time": "08:00",
+    "destination": "ПРИШТИНА",
+    "carrier": "ХИСАРИ",
+    "price": 650,
+    "returnPrice": 1050
+  },
+  {
+    "time": "08:00",
+    "destination": "УРОШЕВАЦ",
+    "carrier": "ХИСАРИ",
+    "price": 550,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ВАСИЛЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ВЛАДЕВЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ГОСТИВАР",
+    "carrier": "ДУРМО ТУРС",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "08:00",
+    "destination": "ГРАДОШОРЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ДАМЈАН РУДНИК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ДАМЈАН СЕЛО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ДОБРЕЈЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ДОЛАНИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ДУКАТИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ЈАРГУЛИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "КАДРИФАКОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "КАЛУЃЕРИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "КРИВИ ДОЛ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ЛАКАВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ЛЕСКОВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ЛОЗОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ОВЧЕ ПОЛЕ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ОХРИД",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 890,
+    "returnPrice": 1240
+  },
+  {
+    "time": "08:00",
+    "destination": "РАДИЧЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "РАДОВИШ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "САРАМЗАЛИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 260,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "СЛОБОДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "СТОПАНСТВО-ЕЛТУФЕК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "СТРУМИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 680,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ТОПОЛНИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ЦРВЕНА ЗВЕЗДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ШОПУР",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "ШТИП",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:00",
+    "destination": "НОВИ ПАЗАР",
+    "carrier": "САНЏАК ТРАНС-ОЗЛЕМ",
+    "price": 1450,
+    "returnPrice": 2150
+  },
+  {
+    "time": "08:00",
+    "destination": "РАШКА",
+    "carrier": "САНЏАК ТРАНС-ОЗЛЕМ",
+    "price": 1390,
+    "returnPrice": 2050
+  },
+  {
+    "time": "08:05",
+    "destination": "КУМАНОВО",
+    "carrier": "ЈОЦО ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:10",
+    "destination": "ТИРАНА",
+    "carrier": "ИДО ТУРС",
+    "price": 1280,
+    "returnPrice": 1890
+  },
+  {
+    "time": "08:15",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕКО-ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:30",
+    "destination": "СОФИЈА",
+    "carrier": "ТРАНСКОП-МАТПУ",
+    "price": 1600,
+    "returnPrice": 2720
+  },
+  {
+    "time": "08:30",
+    "destination": "ЌУСТЕНДИЛ",
+    "carrier": "ТРАНСКОП-МАТПУ",
+    "price": 1480,
+    "returnPrice": 2530
+  },
+  {
+    "time": "08:30",
+    "destination": "БОГДАНЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 660,
+    "returnPrice": 990
+  },
+  {
+    "time": "08:30",
+    "destination": "ВЕЛЕС",
+    "carrier": "ДАЈО ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:30",
+    "destination": "ГЕВГЕЛИЈА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 620,
+    "returnPrice": 920
+  },
+  {
+    "time": "08:30",
+    "destination": "ДЕМИР КАПИЈА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 480,
+    "returnPrice": 720
+  },
+  {
+    "time": "08:30",
+    "destination": "ДОЈРАН",
+    "carrier": "ДАЈО ТУРС",
+    "price": 750,
+    "returnPrice": 1100
+  },
+  {
+    "time": "08:30",
+    "destination": "МАРВИНЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 500,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:30",
+    "destination": "НЕГОТИНО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 400,
+    "returnPrice": 600
+  },
+  {
+    "time": "08:30",
+    "destination": "ПРДЕЈЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 570,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:30",
+    "destination": "СМОКВИЦА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 560,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:30",
+    "destination": "СТРУГА",
+    "carrier": "МАРТИНОСКИ",
+    "price": 930,
+    "returnPrice": 1230
+  },
+  {
+    "time": "08:30",
+    "destination": "УДОВО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 540,
+    "returnPrice": 810
+  },
+  {
+    "time": "08:30",
+    "destination": "СОЛУН",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 2200,
+    "returnPrice": 3430
+  },
+  {
+    "time": "08:30",
+    "destination": "ПРИЛЕП",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 530,
+    "returnPrice": 860
+  },
+  {
+    "time": "08:30",
+    "destination": "РОСОМАН",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 340,
+    "returnPrice": 520
+  },
+  {
+    "time": "08:35",
+    "destination": "ГРУПЧИН",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 140,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:35",
+    "destination": "ЖЕЛИНО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:35",
+    "destination": "ТЕТОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "08:45",
+    "destination": "КУМАНОВО",
+    "carrier": "ШТУЗ КУМАНОВО",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "0830",
+    "destination": "ГРАДСКО",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 300,
+    "returnPrice": 490
+  },
+  {
+    "time": "0830",
+    "destination": "РОСОМАН",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 340,
+    "returnPrice": 520
+  },
+  {
+    "time": "0830",
+    "destination": "КАМЕН ДОЛ",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 310,
+    "returnPrice": 0
+  },
+  {
+    "time": "0830",
+    "destination": "ДРЕНОВО",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 380,
+    "returnPrice": 610
+  },
+  {
+    "time": "0830",
+    "destination": "ФАРИШ",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 410,
+    "returnPrice": 650
+  },
+  {
+    "time": "09:00",
+    "destination": "ТИРАНА",
+    "carrier": "ХАК КОМЕРЦ",
+    "price": 1280,
+    "returnPrice": 1890
+  },
+  {
+    "time": "09:00",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "БИТОЛА",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 630,
+    "returnPrice": 980
+  },
+  {
+    "time": "09:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 200,
+    "returnPrice": 320
+  },
+  {
+    "time": "09:00",
+    "destination": "ВОЈНИК",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 270,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "ГИНОВЦЕ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 390,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "ГОСТИВАР",
+    "carrier": "ДУРМО ТУРС",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "09:00",
+    "destination": "ГРАДСКО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 300,
+    "returnPrice": 490
+  },
+  {
+    "time": "09:00",
+    "destination": "ДРЕНОВО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 370,
+    "returnPrice": 600
+  },
+  {
+    "time": "09:00",
+    "destination": "КРИВА ПАЛАНКА",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "КУМАНОВО",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "МЛАДО НАГОРИЧАНИ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "МОЖДИВЊАК",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 400,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "ОБЛАВЦЕ-КР.ПАЛАНКА",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 290,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "ОРАХ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 290,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "ПРИЛЕП",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 530,
+    "returnPrice": 860
+  },
+  {
+    "time": "09:00",
+    "destination": "ПСАЧА",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 400,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "РАКЛЕ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "РАНКОВЦЕ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 370,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "РОСОМАН",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 340,
+    "returnPrice": 540
+  },
+  {
+    "time": "09:00",
+    "destination": "РУГИНЦЕ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "СИРКОВО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 230,
+    "returnPrice": 520
+  },
+  {
+    "time": "09:00",
+    "destination": "СМИЛЧИНЦИ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 240,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "СТРАЦИН",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 320,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:00",
+    "destination": "ТОПОЛЧАНИ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 580,
+    "returnPrice": 910
+  },
+  {
+    "time": "09:00",
+    "destination": "ДРАЧ",
+    "carrier": "ХАК БУС",
+    "price": 1280,
+    "returnPrice": 1890
+  },
+  {
+    "time": "09:30",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:30",
+    "destination": "ГОСТИВАР",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "09:30",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:30",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "09:34",
+    "destination": "ДЕБАР",
+    "carrier": "ХИСАРИ",
+    "price": 480,
+    "returnPrice": 730
+  },
+  {
+    "time": "09:45",
+    "destination": "КУМАНОВО",
+    "carrier": "ШТУЗ КУМАНОВО",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ВАСИЛЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ВЛАДЕВЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ГРАДОШОРЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ГРУПЧИН",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 140,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ДАМЈАН РУДНИК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ДАМЈАН СЕЛО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ДОБРЕЈЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ДОЛАНИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ДУКАТИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ЖЕЛИНО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ЈАРГУЛИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "КАДРИФАКОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "КАЛУЃЕРИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "КРИВИ ДОЛ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ЛАКАВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ЛЕСКОВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ЛОЗОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ОВЧЕ ПОЛЕ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ОХРИД",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 890,
+    "returnPrice": 1240
+  },
+  {
+    "time": "10:00",
+    "destination": "РАДИЧЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "РАДОВИШ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "САРАМЗАЛИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 260,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "СЛОБОДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "СТОПАНСТВО-ЕЛТУФЕК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "СТРУМИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 680,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ТОПОЛНИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ЦРВЕНА ЗВЕЗДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ШОПУР",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ШТИП",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:00",
+    "destination": "ТЕТОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:10",
+    "destination": "КАЧАНИК",
+    "carrier": "ХИСАРИ",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:10",
+    "destination": "ПРИШТИНА",
+    "carrier": "ХИСАРИ",
+    "price": 650,
+    "returnPrice": 1050
+  },
+  {
+    "time": "10:10",
+    "destination": "УРОШЕВАЦ",
+    "carrier": "ХИСАРИ",
+    "price": 550,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:30",
+    "destination": "ГОСТИВАР",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "10:30",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:45",
+    "destination": "КУМАНОВО",
+    "carrier": "ШТУЗ КУМАНОВО",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:55",
+    "destination": "ГРУПЧИН",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 140,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:55",
+    "destination": "ЖЕЛИНО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "10:55",
+    "destination": "ТЕТОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "11:00",
+    "destination": "БОГДАНЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 660,
+    "returnPrice": 990
+  },
+  {
+    "time": "11:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "ДАЈО ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "11:00",
+    "destination": "ГЕВГЕЛИЈА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 620,
+    "returnPrice": 920
+  },
+  {
+    "time": "11:00",
+    "destination": "ДЕМИР КАПИЈА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 480,
+    "returnPrice": 720
+  },
+  {
+    "time": "11:00",
+    "destination": "ДОЈРАН",
+    "carrier": "ДАЈО ТУРС",
+    "price": 750,
+    "returnPrice": 1100
+  },
+  {
+    "time": "11:00",
+    "destination": "КОЧАНИ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 510,
+    "returnPrice": 590
+  },
+  {
+    "time": "11:00",
+    "destination": "МАРВИНЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 500,
+    "returnPrice": 0
+  },
+  {
+    "time": "11:00",
+    "destination": "НЕГОТИНО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 400,
+    "returnPrice": 600
+  },
+  {
+    "time": "11:00",
+    "destination": "ОХРИД",
+    "carrier": "КЛАСИК КОМПАНИ",
+    "price": 850,
+    "returnPrice": 1200
+  },
+  {
+    "time": "11:00",
+    "destination": "ПРДЕЈЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 570,
+    "returnPrice": 0
+  },
+  {
+    "time": "11:00",
+    "destination": "СМОКВИЦА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 560,
+    "returnPrice": 0
+  },
+  {
+    "time": "11:00",
+    "destination": "УДОВО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 540,
+    "returnPrice": 810
+  },
+  {
+    "time": "11:00",
+    "destination": "КОЧАНИ",
+    "carrier": "АВТО АТОМ",
+    "price": 510,
+    "returnPrice": 690
+  },
+  {
+    "time": "11:00",
+    "destination": "СТРУГА",
+    "carrier": "ЕУРОЛИНИЈА",
+    "price": 830,
+    "returnPrice": 1100
+  },
+  {
+    "time": "11:00",
+    "destination": "ПРИШТИНА",
+    "carrier": "ЕУРОЛИНИЈА",
+    "price": 550,
+    "returnPrice": 850
+  },
+  {
+    "time": "11:00",
+    "destination": "УРОШЕВАЦ",
+    "carrier": "ЕУРОЛИНИЈА",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "11:30",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "11:30",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "11:45",
+    "destination": "ПРИШТИНА",
+    "carrier": "МОТОЈА",
+    "price": 550,
+    "returnPrice": 850
+  },
+  {
+    "time": "11:45",
+    "destination": "ГОСТИВАР",
+    "carrier": "ДУРМО ТУРС",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "11:45",
+    "destination": "КУМАНОВО",
+    "carrier": "ШТУЗ КУМАНОВО",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "11:50",
+    "destination": "ДЕБАР",
+    "carrier": "ХИСАРИ",
+    "price": 480,
+    "returnPrice": 730
+  },
+  {
+    "time": "12:00",
+    "destination": "ВАСИЛЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ВЛАДЕВЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ГОСТИВАР",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "12:00",
+    "destination": "ГРАДОШОРЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ДАМЈАН РУДНИК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ДАМЈАН СЕЛО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ДОБРЕЈЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ДОЛАНИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ДУКАТИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ЈАРГУЛИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "КАВАДАРЦИ",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 450,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "КАДРИФАКОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "КАЛУЃЕРИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "КРИВИ ДОЛ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ЛАКАВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ЛЕСКОВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ЛОЗОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "НЕГОТИНО",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 400,
+    "returnPrice": 600
+  },
+  {
+    "time": "12:00",
+    "destination": "НОГАЕВЦИ",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ОВЧЕ ПОЛЕ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "РАДИЧЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "РАДОВИШ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "САРАМЗАЛИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 260,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "СЛОБОДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "СТОПАНСТВО-ЕЛТУФЕК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "СТРУМИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 680,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ТОПОЛНИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ЦРВЕНА ЗВЕЗДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ШОПУР",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:00",
+    "destination": "ШТИП",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:15",
+    "destination": "ГОЛЕМА РЕЧИЦА",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:15",
+    "destination": "ЛОКВЕНИ",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 530,
+    "returnPrice": 730
+  },
+  {
+    "time": "12:15",
+    "destination": "СЛАНСКО",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 260,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:15",
+    "destination": "СРБЈАНИ",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 480,
+    "returnPrice": 630
+  },
+  {
+    "time": "12:15",
+    "destination": "СУВО ДОЛ",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 480,
+    "returnPrice": 730
+  },
+  {
+    "time": "12:15",
+    "destination": "ТРЕБИНО",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 320,
+    "returnPrice": 520
+  },
+  {
+    "time": "12:30",
+    "destination": "КАЧАНИК",
+    "carrier": "АМАЛФИ ТУРС",
+    "price": 250,
+    "returnPrice": 400
+  },
+  {
+    "time": "12:30",
+    "destination": "ПРИШТИНА",
+    "carrier": "АМАЛФИ ТУРС",
+    "price": 550,
+    "returnPrice": 850
+  },
+  {
+    "time": "12:30",
+    "destination": "БАЛВАН",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 450,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "ВИНИЦА",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 540,
+    "returnPrice": 690
+  },
+  {
+    "time": "12:30",
+    "destination": "ДЕБРЕШТЕ",
+    "carrier": "РАМА ТУРС",
+    "price": 530,
+    "returnPrice": 830
+  },
+  {
+    "time": "12:30",
+    "destination": "ДОБРОШАНЕ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 180,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "ДОЛНЕНИ-М.БРОД",
+    "carrier": "РАМА ТУРС",
+    "price": 560,
+    "returnPrice": 960
+  },
+  {
+    "time": "12:30",
+    "destination": "КАДРИФАКОВО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "КОЧАНИ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 510,
+    "returnPrice": 690
+  },
+  {
+    "time": "12:30",
+    "destination": "КРИВИ ДОЛ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "КРУПИШТЕ",
+    "carrier": "АВТО АТОМ",
+    "price": 460,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "КУМАНОВО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "КУЧКАРЕВО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 240,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "КШАЊЕ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "МАКЕДОНСКИ БРОД",
+    "carrier": "РАМА ТУРС",
+    "price": 530,
+    "returnPrice": 830
+  },
+  {
+    "time": "12:30",
+    "destination": "МЕЗДРА",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "НОВОСЕЉАНИ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 240,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "ОБЛЕШЕВО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 490,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "ОРАШАЦ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 240,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "ОХРИД",
+    "carrier": "КЛАСИК КОМПАНИ",
+    "price": 850,
+    "returnPrice": 1200
+  },
+  {
+    "time": "12:30",
+    "destination": "ПАВЛЕШЕНЦИ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 260,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "ПЕЗОВО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 240,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "ПУСТО ВАЛЕВЦИ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 270,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "РОПОТОВО",
+    "carrier": "РАМА ТУРС",
+    "price": 530,
+    "returnPrice": 830
+  },
+  {
+    "time": "12:30",
+    "destination": "СВЕТИ НИКОЛЕ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "СКАЧКОВЦЕ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 240,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "ЦРВЕНА ЗВЕЗДА",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "ШТИП",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 430,
+    "returnPrice": 650
+  },
+  {
+    "time": "12:30",
+    "destination": "ВЕЛЕС",
+    "carrier": "ТРАНСКОП",
+    "price": 200,
+    "returnPrice": 320
+  },
+  {
+    "time": "12:30",
+    "destination": "ГРАДСКО",
+    "carrier": "ТРАНСКОП",
+    "price": 300,
+    "returnPrice": 490
+  },
+  {
+    "time": "12:30",
+    "destination": "РОСОМАН",
+    "carrier": "ТРАНСКОП",
+    "price": 340,
+    "returnPrice": 540
+  },
+  {
+    "time": "12:30",
+    "destination": "СИРКОВО",
+    "carrier": "ТРАНСКОП",
+    "price": 320,
+    "returnPrice": 520
+  },
+  {
+    "time": "12:30",
+    "destination": "ДРЕНОВО",
+    "carrier": "ТРАНСКОП",
+    "price": 370,
+    "returnPrice": 600
+  },
+  {
+    "time": "12:30",
+    "destination": "РАКЛЕ",
+    "carrier": "ТРАНСКОП",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "ПРИЛЕП",
+    "carrier": "ТРАНСКОП",
+    "price": 530,
+    "returnPrice": 860
+  },
+  {
+    "time": "12:30",
+    "destination": "ТОПОЛЧАНИ",
+    "carrier": "ТРАНСКОП",
+    "price": 580,
+    "returnPrice": 910
+  },
+  {
+    "time": "12:30",
+    "destination": "БИТОЛА",
+    "carrier": "ТРАНСКОП",
+    "price": 630,
+    "returnPrice": 980
+  },
+  {
+    "time": "12:30",
+    "destination": "КАЖАНИ",
+    "carrier": "ТРАНСКОП",
+    "price": 720,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:30",
+    "destination": "РЕСЕН",
+    "carrier": "ТРАНСКОП",
+    "price": 730,
+    "returnPrice": 1130
+  },
+  {
+    "time": "12:45",
+    "destination": "ГОСТИВАР",
+    "carrier": "ДУРМО ТУРС",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "12:45",
+    "destination": "КУМАНОВО",
+    "carrier": "ШТУЗ КУМАНОВО",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "12:50",
+    "destination": "СТРУГА",
+    "carrier": "МАРТИНОСКИ",
+    "price": 930,
+    "returnPrice": 1230
+  },
+  {
+    "time": "13:00",
+    "destination": "ВАСИЛЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ВЛАДЕВЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ГРАДОШОРЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ДАМЈАН РУДНИК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ДАМЈАН СЕЛО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ДОБРЕЈЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ДОЛАНИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ДУКАТИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ЖИТОШЕ",
+    "carrier": "ЛАСТА ТУРС",
+    "price": 630,
+    "returnPrice": 930
+  },
+  {
+    "time": "13:00",
+    "destination": "ЈАРГУЛИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "КАДРИФАКОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "КАЛУЃЕРИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "КРИВИ ДОЛ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "КУМАНОВО",
+    "carrier": "МАМЛИ ТРАВЕЛ",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ЛАЖАНИ",
+    "carrier": "ЛАСТА ТУРС",
+    "price": 630,
+    "returnPrice": 930
+  },
+  {
+    "time": "13:00",
+    "destination": "ЛАКАВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ЛЕСКОВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "НЕГОТИНО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 400,
+    "returnPrice": 600
+  },
+  {
+    "time": "13:00",
+    "destination": "РАДИЧЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "РАДОВИШ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "САРАМЗАЛИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 260,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "СЛОБОДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "СТОПАНСТВО-ЕЛТУФЕК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "СТРУМИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 680,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ТОПОЛНИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ЦРВЕНА ЗВЕЗДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ШОПУР",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:00",
+    "destination": "ШТИП",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:10",
+    "destination": "БУЈАНОВАЦ",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 570,
+    "returnPrice": 900
+  },
+  {
+    "time": "13:10",
+    "destination": "ВЛАДИЧИН ХАН",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 790,
+    "returnPrice": 1260
+  },
+  {
+    "time": "13:10",
+    "destination": "ВРАЊЕ",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 1130
+  },
+  {
+    "time": "13:10",
+    "destination": "ЛЕСКОВАЦ",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 970,
+    "returnPrice": 1580
+  },
+  {
+    "time": "13:10",
+    "destination": "НИШ",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 1170,
+    "returnPrice": 1920
+  },
+  {
+    "time": "13:10",
+    "destination": "БЕЛГРАД",
+    "carrier": "НИШ ЕКСПРЕС",
+    "price": 1970,
+    "returnPrice": 3300
+  },
+  {
+    "time": "13:15",
+    "destination": "ДЕЛОГОЖДА-село",
+    "carrier": "ЕУРОЛИНИЈА",
+    "price": 630,
+    "returnPrice": 930
+  },
+  {
+    "time": "13:15",
+    "destination": "КИЧЕВО",
+    "carrier": "ЕУРОЛИНИЈА",
+    "price": 730,
+    "returnPrice": 1000
+  },
+  {
+    "time": "13:15",
+    "destination": "СТРУГА",
+    "carrier": "ЕУРОЛИНИЈА",
+    "price": 830,
+    "returnPrice": 1100
+  },
+  {
+    "time": "13:30",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:30",
+    "destination": "БИТОЛА",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 630,
+    "returnPrice": 980
+  },
+  {
+    "time": "13:30",
+    "destination": "ВЕЛЕС",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 200,
+    "returnPrice": 320
+  },
+  {
+    "time": "13:30",
+    "destination": "ГОСТИВАР",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "13:30",
+    "destination": "ГРАДСКО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 300,
+    "returnPrice": 490
+  },
+  {
+    "time": "13:30",
+    "destination": "ДРЕНОВО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 370,
+    "returnPrice": 600
+  },
+  {
+    "time": "13:30",
+    "destination": "КАЖАНИ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 720,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:30",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:30",
+    "destination": "ПРИЛЕП",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 530,
+    "returnPrice": 860
+  },
+  {
+    "time": "13:30",
+    "destination": "РАКЛЕ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:30",
+    "destination": "РЕСЕН",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 730,
+    "returnPrice": 1130
+  },
+  {
+    "time": "13:30",
+    "destination": "РОСОМАН",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 340,
+    "returnPrice": 570
+  },
+  {
+    "time": "13:30",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:30",
+    "destination": "ТОПОЛЧАНИ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 580,
+    "returnPrice": 910
+  },
+  {
+    "time": "13:30",
+    "destination": "ПРИЛЕП",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 530,
+    "returnPrice": 860
+  },
+  {
+    "time": "13:30",
+    "destination": "ГРАДСКО",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 300,
+    "returnPrice": 490
+  },
+  {
+    "time": "13:30",
+    "destination": "РОСОМАН",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 340,
+    "returnPrice": 520
+  },
+  {
+    "time": "13:30",
+    "destination": "СИРКОВО",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 310,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:30",
+    "destination": "КАМЕН ДОЛ",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 310,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:30",
+    "destination": "ФАРИШ",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 410,
+    "returnPrice": 650
+  },
+  {
+    "time": "13:30",
+    "destination": "ДРЕНОВО",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 380,
+    "returnPrice": 610
+  },
+  {
+    "time": "13:30",
+    "destination": "ВЕЛЕС",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 200,
+    "returnPrice": 340
+  },
+  {
+    "time": "13:45",
+    "destination": "КУМАНОВО",
+    "carrier": "ШТУЗ КУМАНОВО",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:50",
+    "destination": "ГРУПЧИН",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 140,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:50",
+    "destination": "ЖЕЛИНО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:50",
+    "destination": "ТЕТОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:55",
+    "destination": "ГОСТИВАР",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 320,
+    "returnPrice": 0
+  },
+  {
+    "time": "13:55",
+    "destination": "ДЕБАР",
+    "carrier": "ХИСАРИ",
+    "price": 480,
+    "returnPrice": 730
+  },
+  {
+    "time": "13:55",
+    "destination": "ЗАЈАС",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ПРИШТИНА",
+    "carrier": "ХИСАРИ",
+    "price": 650,
+    "returnPrice": 1050
+  },
+  {
+    "time": "14:00",
+    "destination": "БОГДАНЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 660,
+    "returnPrice": 990
+  },
+  {
+    "time": "14:00",
+    "destination": "БУДИНАРЦИ",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 580,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ВАСИЛЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "ДАЈО ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ВИНИЦА",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 480,
+    "returnPrice": 730
+  },
+  {
+    "time": "14:00",
+    "destination": "ВЛАДЕВЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ГЕВГЕЛИЈА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 620,
+    "returnPrice": 920
+  },
+  {
+    "time": "14:00",
+    "destination": "ГРАДОШОРЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ДАМЈАН РУДНИК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ДАМЈАН СЕЛО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ДЕМИР КАПИЈА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 480,
+    "returnPrice": 720
+  },
+  {
+    "time": "14:00",
+    "destination": "ДОБРЕЈЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ДОЛАНИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ДУКАТИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ЈАРГУЛИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "КАДРИФАКОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "КАЛУЃЕРИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "КРИВИ ДОЛ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ЛАКАВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ЛАКИ",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 530,
+    "returnPrice": 830
+  },
+  {
+    "time": "14:00",
+    "destination": "ЛЕСКОВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ЛОЗОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "МАРВИНЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 500,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "МАЧЕВО",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 580,
+    "returnPrice": 930
+  },
+  {
+    "time": "14:00",
+    "destination": "МИТРАШИНЦИ",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 580,
+    "returnPrice": 930
+  },
+  {
+    "time": "14:00",
+    "destination": "НЕГОТИНО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 400,
+    "returnPrice": 600
+  },
+  {
+    "time": "14:00",
+    "destination": "ОБОЗНА",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 530,
+    "returnPrice": 830
+  },
+  {
+    "time": "14:00",
+    "destination": "ОВЧЕ ПОЛЕ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ОСОЈНИЦА",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 480,
+    "returnPrice": 730
+  },
+  {
+    "time": "14:00",
+    "destination": "ПЕКЉАНСКА РЕКА",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 480,
+    "returnPrice": 730
+  },
+  {
+    "time": "14:00",
+    "destination": "ПЕХЧЕВО",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 580,
+    "returnPrice": 930
+  },
+  {
+    "time": "14:00",
+    "destination": "ПРДЕЈЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 570,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "РАДИЧЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "РАДОВИШ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "РОБОВО",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 580,
+    "returnPrice": 930
+  },
+  {
+    "time": "14:00",
+    "destination": "САРАМЗАЛИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 260,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "СЛОБОДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "СМОЈМИРОВО",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 580,
+    "returnPrice": 930
+  },
+  {
+    "time": "14:00",
+    "destination": "СМОКВИЦА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 560,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "СТОПАНСТВО-ЕЛТУФЕК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "СТРУМИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 680,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ТОПОЛНИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "УДОВО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 540,
+    "returnPrice": 810
+  },
+  {
+    "time": "14:00",
+    "destination": "ЦРВЕНА ЗВЕЗДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ЧИФЛИК",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 580,
+    "returnPrice": 430
+  },
+  {
+    "time": "14:00",
+    "destination": "ШОПУР",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ШТИП",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ПРИЛЕП",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 530,
+    "returnPrice": 860
+  },
+  {
+    "time": "14:00",
+    "destination": "ГРАДСКО",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 300,
+    "returnPrice": 490
+  },
+  {
+    "time": "14:00",
+    "destination": "КАМЕН ДОЛ",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 310,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ФАРИШ",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 410,
+    "returnPrice": 650
+  },
+  {
+    "time": "14:00",
+    "destination": "ДРЕНОВО",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 380,
+    "returnPrice": 610
+  },
+  {
+    "time": "14:00",
+    "destination": "СИРКОВО",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 310,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 200,
+    "returnPrice": 340
+  },
+  {
+    "time": "14:15",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕКО-ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:30",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:30",
+    "destination": "ГОСТИВАР",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "14:30",
+    "destination": "КИЧЕВО",
+    "carrier": "ВАКЧАРЕ СТРУГА",
+    "price": 480,
+    "returnPrice": 680
+  },
+  {
+    "time": "14:30",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:30",
+    "destination": "СТРУГА",
+    "carrier": "ВАКЧАРЕ СТРУГА",
+    "price": 730,
+    "returnPrice": 930
+  },
+  {
+    "time": "14:30",
+    "destination": "ТЕТОВО",
+    "carrier": "ВАКЧАРЕ СТРУГА",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:45",
+    "destination": "КУМАНОВО",
+    "carrier": "ШТУЗ КУМАНОВО",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:50",
+    "destination": "ГРУПЧИН",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 140,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:50",
+    "destination": "ЖЕЛИНО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "14:50",
+    "destination": "ТЕТОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:00",
+    "destination": "СОФИЈА",
+    "carrier": "МАТПУ ЕООД-ТРАНСКОП",
+    "price": 1600,
+    "returnPrice": 2720
+  },
+  {
+    "time": "15:00",
+    "destination": "ЌУСТЕНДИЛ",
+    "carrier": "МАТПУ ЕООД-ТРАНСКОП",
+    "price": 1480,
+    "returnPrice": 2530
+  },
+  {
+    "time": "15:00",
+    "destination": "КАЧАНИК",
+    "carrier": "АЛБУС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:00",
+    "destination": "ПРИШТИНА",
+    "carrier": "АЛБУС",
+    "price": 650,
+    "returnPrice": 950
+  },
+  {
+    "time": "15:00",
+    "destination": "УРОШЕВАЦ",
+    "carrier": "АЛБУС",
+    "price": 500,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:00",
+    "destination": "ВАЛАНДОВО",
+    "carrier": "ДПТУТ-СТЕФАНИ",
+    "price": 630,
+    "returnPrice": 930
+  },
+  {
+    "time": "15:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:00",
+    "destination": "ГЛИШИЌ",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 270,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:00",
+    "destination": "ДЕМИР КАПИЈА",
+    "carrier": "ДПТУТ-СТЕФАНИ",
+    "price": 530,
+    "returnPrice": 830
+  },
+  {
+    "time": "15:00",
+    "destination": "ЈОСИФОВО",
+    "carrier": "ДПТУТ-СТЕФАНИ",
+    "price": 630,
+    "returnPrice": 930
+  },
+  {
+    "time": "15:00",
+    "destination": "КАВАДАРЦИ",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 450,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:00",
+    "destination": "МАРЕНА",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 270,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:00",
+    "destination": "НЕГОТИНО",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 400,
+    "returnPrice": 600
+  },
+  {
+    "time": "15:00",
+    "destination": "НОГАЕВЦИ",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:00",
+    "destination": "УДОВО",
+    "carrier": "ДПТУТ-СТЕФАНИ",
+    "price": 630,
+    "returnPrice": 930
+  },
+  {
+    "time": "15:00",
+    "destination": "ОХРИД",
+    "carrier": "КЛАСИК",
+    "price": 850,
+    "returnPrice": 1200
+  },
+  {
+    "time": "15:15",
+    "destination": "ГОСТИВАР",
+    "carrier": "ДУРМО ТУРС",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "15:30",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "БИТОЛА",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 630,
+    "returnPrice": 980
+  },
+  {
+    "time": "15:30",
+    "destination": "ВЕЛЕС",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 200,
+    "returnPrice": 320
+  },
+  {
+    "time": "15:30",
+    "destination": "ГОСТИВАР",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "15:30",
+    "destination": "ГРАДОШОРЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "ГРАДСКО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 300,
+    "returnPrice": 490
+  },
+  {
+    "time": "15:30",
+    "destination": "ДРЕНОВО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 370,
+    "returnPrice": 600
+  },
+  {
+    "time": "15:30",
+    "destination": "ДРУГОВО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "ДУКАТИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "КАЛУЃЕРИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "КРИВИ ДОЛ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "ЛАКАВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "ЛЕСКОВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "ЛОЗОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "ОВЧЕ ПОЛЕ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "ПРИЛЕП",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 530,
+    "returnPrice": 860
+  },
+  {
+    "time": "15:30",
+    "destination": "РАДИЧЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "РАДОВИШ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "РАКЛЕ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "РЕСЕН",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 730,
+    "returnPrice": 1130
+  },
+  {
+    "time": "15:30",
+    "destination": "РОСОМАН",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 340,
+    "returnPrice": 540
+  },
+  {
+    "time": "15:30",
+    "destination": "САРАМЗАЛИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 260,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "СИРКОВО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 320,
+    "returnPrice": 520
+  },
+  {
+    "time": "15:30",
+    "destination": "СЛОБОДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "СТОПАНСТВО-ЕЛТУФЕК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "СТРУМИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 680,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "ТОПОЛНИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "ТОПОЛЧАНИ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 580,
+    "returnPrice": 910
+  },
+  {
+    "time": "15:30",
+    "destination": "ЦРВЕНА ЗВЕЗДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "ШОПУР",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "ШТИП",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:30",
+    "destination": "ЉУБЉАНА",
+    "carrier": "РАДИКА ПРЕВОЗИ",
+    "price": 3780,
+    "returnPrice": 6240
+  },
+  {
+    "time": "15:30",
+    "destination": "НОВИ ПАЗАР",
+    "carrier": "БОСФОР ТУРС-БОСФОР",
+    "price": 1280,
+    "returnPrice": 1850
+  },
+  {
+    "time": "15:30",
+    "destination": "РАШКА",
+    "carrier": "БОСФОР ТУРС-БОСФОР",
+    "price": 1150,
+    "returnPrice": 1470
+  },
+  {
+    "time": "15:45",
+    "destination": "КАВАДАРЦИ",
+    "carrier": "ЕКСТРА БУС",
+    "price": 450,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:45",
+    "destination": "КУМАНОВО",
+    "carrier": "ШТУЗ КУМАНОВО",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "15:55",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "КАЧАНИК",
+    "carrier": "ВЕКТОР ТУРС",
+    "price": 280,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "КАЧАНИК",
+    "carrier": "ВЕКТОР ТУРС",
+    "price": 280,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ПРИЗРЕН",
+    "carrier": "ВЕКТОР ТУРС",
+    "price": 580,
+    "returnPrice": 950
+  },
+  {
+    "time": "16:00",
+    "destination": "СУВА РЕКА",
+    "carrier": "ВЕКТОР ТУРС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "УРОШЕВАЦ",
+    "carrier": "ВЕКТОР ТУРС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ШТИМЉЕ",
+    "carrier": "ВЕКТОР ТУРС",
+    "price": 380,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ВАСИЛЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ВЛАДЕВЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ВОЈНИК",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 270,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ГИНОВЦЕ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 390,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ГОСТИВАР",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 320,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ГРАДОШОРЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ДАМЈАН РУДНИК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ДАМЈАН СЕЛО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ДОБРЕЈЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ДОЛАНИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ДУКАТИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ЗАЈАС",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ЈАРГУЛИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "КАДРИФАКОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "КАЛУЃЕРИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "КИЧЕВО",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 480,
+    "returnPrice": 360
+  },
+  {
+    "time": "16:00",
+    "destination": "КРИВА ПАЛАНКА",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "КРИВИ ДОЛ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "КУМАНОВО",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ЛАКАВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ЛЕСКОВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ЛОЗОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "МЛАДО НАГОРИЧАНИ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "МОЖДИВЊАК",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 400,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ОБЛАВЦЕ-КР.ПАЛАНКА",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 290,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ОВЧЕ ПОЛЕ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ПСАЧА",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 400,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "РАДИЧЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "РАДОВИШ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "РАНКОВЦЕ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 370,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "РУГИНЦЕ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "САРАМЗАЛИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 260,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "СЛОБОДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "СМИЛЧИНЦИ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 240,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "СТОПАНСТВО-ЕЛТУФЕК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "СТРАЦИН",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 320,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "СТРУМИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 680,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ТОПОЛНИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ЦРВЕНА ЗВЕЗДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ШОПУР",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ШТИП",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "ДАЈО ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "НЕГОТИНО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 400,
+    "returnPrice": 600
+  },
+  {
+    "time": "16:00",
+    "destination": "ДЕМИР КАПИЈА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 480,
+    "returnPrice": 720
+  },
+  {
+    "time": "16:00",
+    "destination": "УДОВО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 540,
+    "returnPrice": 810
+  },
+  {
+    "time": "16:00",
+    "destination": "МАРВИНЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 500,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "СМОКВИЦА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 560,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ПРДЕЈЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 570,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:00",
+    "destination": "ГЕВГЕЛИЈА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 620,
+    "returnPrice": 920
+  },
+  {
+    "time": "16:00",
+    "destination": "БОГДАНЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 660,
+    "returnPrice": 990
+  },
+  {
+    "time": "16:00",
+    "destination": "ГРАДСКО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 310,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:10",
+    "destination": "КУМАНОВО",
+    "carrier": "ЈОЦО ТУРС",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:10",
+    "destination": "СТРУГА",
+    "carrier": "МАРТИНОСКИ",
+    "price": 930,
+    "returnPrice": 1230
+  },
+  {
+    "time": "16:15",
+    "destination": "ГОСТИВАР",
+    "carrier": "ДУРМО ТУРС",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "16:15",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕКО-ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:20",
+    "destination": "ВЕЛЕС",
+    "carrier": "ПАН ПРОМЕТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:22",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ЈАНКОВИЌ",
+    "carrier": "АМАЛФИ ТУРС",
+    "price": 150,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "КАЧАНИК",
+    "carrier": "АМАЛФИ ТУРС",
+    "price": 250,
+    "returnPrice": 400
+  },
+  {
+    "time": "16:30",
+    "destination": "ПРИШТИНА",
+    "carrier": "АМАЛФИ ТУРС",
+    "price": 550,
+    "returnPrice": 850
+  },
+  {
+    "time": "16:30",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "БАЛВАН",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 450,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "БЕРОВО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 720,
+    "returnPrice": 950
+  },
+  {
+    "time": "16:30",
+    "destination": "БУДИНАРЦИ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 630,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ВЕЛЕС",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ВИНИЦА",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 540,
+    "returnPrice": 690
+  },
+  {
+    "time": "16:30",
+    "destination": "КАДРИФАКОВО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "КОЧАНИ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 510,
+    "returnPrice": 690
+  },
+  {
+    "time": "16:30",
+    "destination": "КРИВИ ДОЛ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "КРУПИШТЕ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 460,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ЛАКИ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 590,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ЛОЗОВО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 270,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "МАЧЕВО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 590,
+    "returnPrice": 930
+  },
+  {
+    "time": "16:30",
+    "destination": "МИТРАШИНЦИ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ОБЛЕШЕВО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 490,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ОБОЗНА",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 600,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ОВЧЕ ПОЛЕ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ОСОЈНИЦА",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 560,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ОХРИД",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 890,
+    "returnPrice": 1240
+  },
+  {
+    "time": "16:30",
+    "destination": "ПЕКЉАНСКА РЕКА",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 580,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ПЕХЧЕВО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 720,
+    "returnPrice": 950
+  },
+  {
+    "time": "16:30",
+    "destination": "САРАМЗАЛИНО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 280,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "СМОЈМИРОВО",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 720,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ЦРВЕНА ЗВЕЗДА",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ШТИП",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 430,
+    "returnPrice": 650
+  },
+  {
+    "time": "16:30",
+    "destination": "ВЕЛЕС",
+    "carrier": "ГАЛЕБ",
+    "price": 210,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ГРАДСКО",
+    "carrier": "ГАЛЕБ",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "РОСОМАН",
+    "carrier": "ГАЛЕБ",
+    "price": 460,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:30",
+    "destination": "ПРИЛЕП",
+    "carrier": "ГАЛЕБ",
+    "price": 560,
+    "returnPrice": 970
+  },
+  {
+    "time": "16:30",
+    "destination": "БИТОЛА",
+    "carrier": "ГАЛЕБ",
+    "price": 730,
+    "returnPrice": 1020
+  },
+  {
+    "time": "16:30",
+    "destination": "РЕСЕН",
+    "carrier": "ГАЛЕБ",
+    "price": 800,
+    "returnPrice": 1240
+  },
+  {
+    "time": "16:30",
+    "destination": "ОХРИД (преку Битола)",
+    "carrier": "ГАЛЕБ",
+    "price": 970,
+    "returnPrice": 1460
+  },
+  {
+    "time": "16:40",
+    "destination": "ВОЈНИК",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "ЖГУРЈЕ",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "ЗЛЕТОВО",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 400,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "ИДНИНА-ФАБРИКА",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "КЕТЕНОВО",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "КИСЕЛИЦА",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "КРАТОВО",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "КРИВА РЕКА",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "КУМАНОВО",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 150,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "МЛАДО НАГОРИЧАНИ",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 180,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "ОБЛАВЦЕ-КР.ПАЛАНКА",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "ОРАХ",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 280,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "ПРОБИШТИП",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 400,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "РАТОВИЦА",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 400,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "РУГИНЦЕ",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 280,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "СТРАЦИН",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "ТАЛАШМАНЦЕ",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "ТРНОВАЦ-КРАТОВО",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:40",
+    "destination": "ШЛЕГОВО",
+    "carrier": "ФИЛЕ ТУРС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:45",
+    "destination": "ГРУПЧИН",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 140,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:45",
+    "destination": "ЖЕЛИНО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:45",
+    "destination": "КУМАНОВО",
+    "carrier": "ШТУЗ КУМАНОВО",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:45",
+    "destination": "ТЕТОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "16:45",
+    "destination": "БЕЛГРАД",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 2110,
+    "returnPrice": 3430
+  },
+  {
+    "time": "16:45",
+    "destination": "БУЈАНОВАЦ",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 570,
+    "returnPrice": 900
+  },
+  {
+    "time": "16:45",
+    "destination": "ВЛАДИЧИН ХАН",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 790,
+    "returnPrice": 1260
+  },
+  {
+    "time": "16:45",
+    "destination": "ВРАЊЕ",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 1130
+  },
+  {
+    "time": "16:45",
+    "destination": "ЛЕСКОВАЦ",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 970,
+    "returnPrice": 1580
+  },
+  {
+    "time": "16:45",
+    "destination": "НИШ",
+    "carrier": "НИШЕКСПРЕС",
+    "price": 1170,
+    "returnPrice": 1920
+  },
+  {
+    "time": "16:50",
+    "destination": "ВЕЛЕС",
+    "carrier": "ПАН ПРОМЕТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ЗАГРЕБ",
+    "carrier": "ХИСАР ТУРИЗАМ ВИП",
+    "price": 3810,
+    "returnPrice": 6910
+  },
+  {
+    "time": "17:00",
+    "destination": "БИТОЛА",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 630,
+    "returnPrice": 980
+  },
+  {
+    "time": "17:00",
+    "destination": "ВАСИЛЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 200,
+    "returnPrice": 320
+  },
+  {
+    "time": "17:00",
+    "destination": "ВЛАДЕВЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ГЛИШИЌ",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 270,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ГРАДОШОРЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ГРАДСКО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 300,
+    "returnPrice": 490
+  },
+  {
+    "time": "17:00",
+    "destination": "ДАМЈАН РУДНИК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ДАМЈАН СЕЛО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ДОБРЕЈЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ДОЛАНИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ДРЕНОВО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 370,
+    "returnPrice": 600
+  },
+  {
+    "time": "17:00",
+    "destination": "ДУКАТИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ЈАРГУЛИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "КАВАДАРЦИ",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 450,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "КАДРИФАКОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "КАЛУЃЕРИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "КРИВИ ДОЛ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ЛАКАВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ЛЕСКОВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ЛОЗОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "МАРЕНА",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 270,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ОВЧЕ ПОЛЕ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ПРИЛЕП",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 530,
+    "returnPrice": 860
+  },
+  {
+    "time": "17:00",
+    "destination": "РАДИЧЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "РАДОВИШ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "РАКЛЕ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "РОСОМАН",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 400,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "РОСОМАН",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 340,
+    "returnPrice": 540
+  },
+  {
+    "time": "17:00",
+    "destination": "САРАМЗАЛИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 260,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "СИРКОВО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 230,
+    "returnPrice": 520
+  },
+  {
+    "time": "17:00",
+    "destination": "СЛОБОДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "СТОПАНСТВО-ЕЛТУФЕК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "СТРУМИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 680,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ТОПОЛНИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ТОПОЛЧАНИ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 580,
+    "returnPrice": 910
+  },
+  {
+    "time": "17:00",
+    "destination": "ЦРВЕНА ЗВЕЗДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ШОПУР",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ШТИП",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:00",
+    "destination": "ЉУБЉАНА",
+    "carrier": "ХАК КОМЕРЦ",
+    "price": 2450,
+    "returnPrice": 4890
+  },
+  {
+    "time": "17:00",
+    "destination": "КОПЕР",
+    "carrier": "ХАК КОМЕРЦ",
+    "price": 2450,
+    "returnPrice": 4890
+  },
+  {
+    "time": "17:00",
+    "destination": "НЕГОТИНО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 400,
+    "returnPrice": 600
+  },
+  {
+    "time": "17:05",
+    "destination": "ДЕБАР",
+    "carrier": "ХИСАРИ",
+    "price": 480,
+    "returnPrice": 730
+  },
+  {
+    "time": "17:05",
+    "destination": "ТЕТОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:05",
+    "destination": "ЖЕЛИНО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:15",
+    "destination": "ГОСТИВАР",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "17:15",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:15",
+    "destination": "МАКЕДОНСКА КАМЕНИЦА",
+    "carrier": "АНДОН КОМПАНИ",
+    "price": 480,
+    "returnPrice": 730
+  },
+  {
+    "time": "17:20",
+    "destination": "КУМАНОВО",
+    "carrier": "ЈОЦО ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:20",
+    "destination": "ВЕЛЕС",
+    "carrier": "ПАН ПРОМЕТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:20",
+    "destination": "ВЕЛЕС",
+    "carrier": "ПАН ПРОМЕТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ЌУСТЕНДИЛ",
+    "carrier": "ХИСАР ТУРИЗАМ ВИП-КАЛЕЈА",
+    "price": 1480,
+    "returnPrice": 2530
+  },
+  {
+    "time": "17:30",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ВАСИЛЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ВЕЛЕС",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ВЛАДЕВЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ГРАДОШОРЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ДАМЈАН РУДНИК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ДАМЈАН СЕЛО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ДОБРЕЈЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ДОЛАНИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ДУКАТИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "КАДРИФАКОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "КАЛУЃЕРИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "КИЧЕВО",
+    "carrier": "ВАКЧАРЕ СТРУГА",
+    "price": 480,
+    "returnPrice": 680
+  },
+  {
+    "time": "17:30",
+    "destination": "КРИВИ ДОЛ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ЛАКАВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ЛЕСКОВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ЛОЗОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ОВЧЕ ПОЛЕ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "РАДИЧЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "РАДОВИШ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "САРАМЗАЛИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 260,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "СЛОБОДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "СТОПАНСТВО-ЕЛТУФЕК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "СТРУГА",
+    "carrier": "ВАКЧАРЕ СТРУГА",
+    "price": 730,
+    "returnPrice": 930
+  },
+  {
+    "time": "17:30",
+    "destination": "СТРУМИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 680,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ТЕТОВО",
+    "carrier": "ВАКЧАРЕ СТРУГА",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ТОПОЛНИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ЦРВЕНА ЗВЕЗДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "ШТИП",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "17:30",
+    "destination": "СОФИЈА",
+    "carrier": "ХИСАР ТУРИЗАМ ВИП-КАЛЕЈА",
+    "price": 1650,
+    "returnPrice": 2820
+  },
+  {
+    "time": "17:45",
+    "destination": "КУМАНОВО",
+    "carrier": "ШТУЗ КУМАНОВО",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:00",
+    "destination": "БОГДАНЦИ",
+    "carrier": "ДАЈО ТУРС",
+    "price": 660,
+    "returnPrice": 990
+  },
+  {
+    "time": "18:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "ДАЈО ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:00",
+    "destination": "ГЕВГЕЛИЈА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 620,
+    "returnPrice": 920
+  },
+  {
+    "time": "18:00",
+    "destination": "ГОСТИВАР",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "18:00",
+    "destination": "ДЕМИР КАПИЈА",
+    "carrier": "ДАЈО ТУРС",
+    "price": 480,
+    "returnPrice": 720
+  },
+  {
+    "time": "18:00",
+    "destination": "ЈАРГУЛИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:00",
+    "destination": "НЕГОТИНО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 400,
+    "returnPrice": 600
+  },
+  {
+    "time": "18:00",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:00",
+    "destination": "УДОВО",
+    "carrier": "ДАЈО ТУРС",
+    "price": 540,
+    "returnPrice": 810
+  },
+  {
+    "time": "18:00",
+    "destination": "ПРИЛЕП",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 530,
+    "returnPrice": 860
+  },
+  {
+    "time": "18:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 200,
+    "returnPrice": 340
+  },
+  {
+    "time": "18:00",
+    "destination": "ГРАДСКО",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 300,
+    "returnPrice": 490
+  },
+  {
+    "time": "18:00",
+    "destination": "РОСОМАН",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 340,
+    "returnPrice": 520
+  },
+  {
+    "time": "18:00",
+    "destination": "СИРКОВО",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 310,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:00",
+    "destination": "КАМЕН ДОЛ",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 310,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:00",
+    "destination": "ФАРИШ",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 410,
+    "returnPrice": 650
+  },
+  {
+    "time": "18:00",
+    "destination": "ДРЕНОВО",
+    "carrier": "РОМАН ПРИЛЕП",
+    "price": 380,
+    "returnPrice": 610
+  },
+  {
+    "time": "18:10",
+    "destination": "КАЧАНИК",
+    "carrier": "АЛБУС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:10",
+    "destination": "ПРИШТИНА",
+    "carrier": "АЛБУС",
+    "price": 650,
+    "returnPrice": 950
+  },
+  {
+    "time": "18:30",
+    "destination": "КАРЛОВАЦ",
+    "carrier": "ХАФЕТ ТОУРС",
+    "price": 3780,
+    "returnPrice": 6850
+  },
+  {
+    "time": "18:30",
+    "destination": "НОВИ ГРАД",
+    "carrier": "ХАФЕТ ТОУРС",
+    "price": 4390,
+    "returnPrice": 8090
+  },
+  {
+    "time": "18:30",
+    "destination": "ПОРЕЧ",
+    "carrier": "ХАФЕТ ТОУРС",
+    "price": 4390,
+    "returnPrice": 8090
+  },
+  {
+    "time": "18:30",
+    "destination": "РИЈЕКА",
+    "carrier": "ХАФЕТ ТОУРС",
+    "price": 4390,
+    "returnPrice": 8090
+  },
+  {
+    "time": "18:30",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "ВОЈНИК",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 270,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "ГИНОВЦЕ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 390,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "КИЧЕВО",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 490,
+    "returnPrice": 690
+  },
+  {
+    "time": "18:30",
+    "destination": "КРИВА ПАЛАНКА",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "КУМАНОВО",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "МЛАДО НАГОРИЧАНИ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "МОЖДИВЊАК",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 400,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "ОБЛАВЦЕ-КР.ПАЛАНКА",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 290,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "ОРАХ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 290,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "ОХРИД",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 890,
+    "returnPrice": 1240
+  },
+  {
+    "time": "18:30",
+    "destination": "ПСАЧА",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 400,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "РАНКОВЦЕ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 370,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "РУГИНЦЕ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 300,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "СМИЛЧИНЦИ",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 240,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "СТРАЦИН",
+    "carrier": "ПРОЛЕТЕР Кр.ПАЛАНКА",
+    "price": 320,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:30",
+    "destination": "КОЧАНИ",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 510,
+    "returnPrice": 690
+  },
+  {
+    "time": "18:30",
+    "destination": "ШТИП",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 430,
+    "returnPrice": 650
+  },
+  {
+    "time": "18:30",
+    "destination": "ВЕЛЕС",
+    "carrier": "АВТОАТОМ КОЧАНИ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:45",
+    "destination": "КУМАНОВО",
+    "carrier": "ШТУЗ КУМАНОВО",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:50",
+    "destination": "ГРУПЧИН",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 140,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:50",
+    "destination": "ЖЕЛИНО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 160,
+    "returnPrice": 0
+  },
+  {
+    "time": "18:50",
+    "destination": "ТЕТОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "БИТОЛА",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 630,
+    "returnPrice": 980
+  },
+  {
+    "time": "19:00",
+    "destination": "ВАСИЛЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 200,
+    "returnPrice": 320
+  },
+  {
+    "time": "19:00",
+    "destination": "ВЛАДЕВЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ГОСТИВАР",
+    "carrier": "ДУРМО ТУРС",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "19:00",
+    "destination": "ГРАДОШОРЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 690,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ГРАДСКО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 300,
+    "returnPrice": 490
+  },
+  {
+    "time": "19:00",
+    "destination": "ДАМЈАН РУДНИК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ДАМЈАН СЕЛО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 350,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ДОБРЕЈЦИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ДОЛАНИ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ДУКАТИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ЈАРГУЛИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "КАДРИФАКОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "КАЛУЃЕРИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 610,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "КРИВИ ДОЛ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 230,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ЛАКАВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 480,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ЛЕСКОВИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 330,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ЛОЗОВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ПРИЛЕП",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 530,
+    "returnPrice": 860
+  },
+  {
+    "time": "19:00",
+    "destination": "РАДИЧЕВО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 650,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "РАДОВИШ",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "РАКЛЕ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "РОСОМАН",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 340,
+    "returnPrice": 540
+  },
+  {
+    "time": "19:00",
+    "destination": "САРАМЗАЛИНО",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 260,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "СИРКОВО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 320,
+    "returnPrice": 520
+  },
+  {
+    "time": "19:00",
+    "destination": "СЛОБОДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 420,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "СТОПАНСТВО-ЕЛТУФЕК",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "СТРУГА",
+    "carrier": "МАРТИНОСКИ",
+    "price": 930,
+    "returnPrice": 1230
+  },
+  {
+    "time": "19:00",
+    "destination": "СТРУМИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 680,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ТОПОЛНИЦА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 530,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ТОПОЛЧАНИ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 580,
+    "returnPrice": 910
+  },
+  {
+    "time": "19:00",
+    "destination": "ЦРВЕНА ЗВЕЗДА",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 250,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ШОПУР",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 340,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ШТИП",
+    "carrier": "СТРУМИЦА ЕКСПРЕС",
+    "price": 360,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:00",
+    "destination": "ИСТАНБУЛ",
+    "carrier": "ЕКСПРЕСТУР",
+    "price": 1860,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:15",
+    "destination": "ВИЕНА",
+    "carrier": "ЕВРОБУС",
+    "price": 4400,
+    "returnPrice": 8090
+  },
+  {
+    "time": "19:30",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:30",
+    "destination": "ВЕЛЕС",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:30",
+    "destination": "ГЛИШИЌ",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 270,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:30",
+    "destination": "ГОСТИВАР",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "19:30",
+    "destination": "КАВАДАРЦИ",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 450,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:30",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:30",
+    "destination": "МАРЕНА",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 270,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:30",
+    "destination": "НЕГОТИНО",
+    "carrier": "ЕКСТРА-КАВАДАРЦИ",
+    "price": 400,
+    "returnPrice": 600
+  },
+  {
+    "time": "19:30",
+    "destination": "ОХРИД",
+    "carrier": "КЛАСИК КОМПАНИ",
+    "price": 850,
+    "returnPrice": 1200
+  },
+  {
+    "time": "19:30",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "19:45",
+    "destination": "СТАРО НАГОРИЧАНЕ",
+    "carrier": "ЈОЦО ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "20:00",
+    "destination": "ГОЛЕМА РЕЧИЦА",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "20:00",
+    "destination": "ГОСТИВАР",
+    "carrier": "ДУРМО ТУРС",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "20:00",
+    "destination": "КИЧЕВО",
+    "carrier": "МЕТРО ТРАНС",
+    "price": 480,
+    "returnPrice": 630
+  },
+  {
+    "time": "20:20",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕКО-ТУРС",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "21:00",
+    "destination": "ТИРАНА",
+    "carrier": "ХАК КОМЕРЦ",
+    "price": 1280,
+    "returnPrice": 1890
+  },
+  {
+    "time": "21:00",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "21:00",
+    "destination": "БИТОЛА",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 630,
+    "returnPrice": 980
+  },
+  {
+    "time": "21:00",
+    "destination": "ВЕЛЕС",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 200,
+    "returnPrice": 320
+  },
+  {
+    "time": "21:00",
+    "destination": "ГРАДСКО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 300,
+    "returnPrice": 490
+  },
+  {
+    "time": "21:00",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "21:00",
+    "destination": "ПРИЛЕП",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 530,
+    "returnPrice": 860
+  },
+  {
+    "time": "21:00",
+    "destination": "РАКЛЕ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 440,
+    "returnPrice": 0
+  },
+  {
+    "time": "21:00",
+    "destination": "РОСОМАН",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 340,
+    "returnPrice": 540
+  },
+  {
+    "time": "21:00",
+    "destination": "СИРКОВО",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 320,
+    "returnPrice": 520
+  },
+  {
+    "time": "21:00",
+    "destination": "ТОПОЛЧАНИ",
+    "carrier": "ТРАНСКОП БИТОЛА",
+    "price": 580,
+    "returnPrice": 910
+  },
+  {
+    "time": "21:00",
+    "destination": "ИСТАНБУЛ",
+    "carrier": "ЈАДРАН",
+    "price": 1950,
+    "returnPrice": 0
+  },
+  {
+    "time": "21:00",
+    "destination": "ДРАЧ",
+    "carrier": "ХАК БУС",
+    "price": 1280,
+    "returnPrice": 1890
+  },
+  {
+    "time": "21:00",
+    "destination": "ПОДГОРИЦА",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 1900,
+    "returnPrice": 3120
+  },
+  {
+    "time": "21:00",
+    "destination": "ТИРАНА",
+    "carrier": "ИДО ТУРС",
+    "price": 1280,
+    "returnPrice": 1890
+  },
+  {
+    "time": "21:00",
+    "destination": "ХЕРЦЕГ НОВИ",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 2510,
+    "returnPrice": 3740
+  },
+  {
+    "time": "21:30",
+    "destination": "ГОСТИВАР",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 350,
+    "returnPrice": 550
+  },
+  {
+    "time": "21:30",
+    "destination": "ТЕТОВО",
+    "carrier": "ЕУРО ТУРИСТ",
+    "price": 200,
+    "returnPrice": 0
+  },
+  {
+    "time": "21:30",
+    "destination": "БЕЛГРАД",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 1810,
+    "returnPrice": 3080
+  },
+  {
+    "time": "21:30",
+    "destination": "ВРАЊЕ",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 600,
+    "returnPrice": 990
+  },
+  {
+    "time": "21:30",
+    "destination": "ЈАГОДИНА",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 1210,
+    "returnPrice": 2030
+  },
+  {
+    "time": "21:30",
+    "destination": "ЛЕСКОВАЦ",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 770,
+    "returnPrice": 1260
+  },
+  {
+    "time": "21:30",
+    "destination": "НИШ",
+    "carrier": "ГАЛЕБ ОХРИД",
+    "price": 770,
+    "returnPrice": 1260
+  },
+  {
+    "time": "22:15",
+    "destination": "АГИНО СЕЛО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 110,
+    "returnPrice": 0
+  },
+  {
+    "time": "22:15",
+    "destination": "КУМАНОВО",
+    "carrier": "РУЛЕ ТУРС",
+    "price": 170,
+    "returnPrice": 0
+  },
+  {
+    "time": "22:30",
+    "destination": "СТРУГА",
+    "carrier": "МАРТИНОСКИ",
+    "price": 930,
+    "returnPrice": 1230
+  },
+  {
+    "time": "23:30",
+    "destination": "БЕЛГРАД",
+    "carrier": "БС-ТУРС",
+    "price": 1650,
+    "returnPrice": 2950
+  }
+]
