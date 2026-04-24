@@ -20,7 +20,7 @@ async function scrape(): Promise<void> {
   const $ = cheerio.load(html);
   const bus_routes: BusRoute[] = [];
 
-  $("table tr").each((_, row) => {
+  $("table tr").each((_: number, row: any) => {
     const cols = $(row).find("td");
 
     if (cols.length !== 5) return; // time, destination, carrier, price, returnPrice

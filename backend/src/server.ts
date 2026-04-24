@@ -24,8 +24,12 @@ const bus_routes: BusRoute[] = JSON.parse(fs.readFileSync(SCRAPED_DATA_PATH, "ut
 // Za filtriranje
 function filterRoutes(query: any, data: BusRoute[]) {
   return data
-    .filter((r) => (query.to ? r.destination.includes(String(query.to).toLowerCase()) : true))
-    .filter((r) => (query.carrier ? r.carrier.includes(String(query.carrier).toLowerCase()) : true))
+    .filter((r) =>
+      query.to ? r.destination.toLowerCase().includes(String(query.to).toLowerCase()) : true,
+    )
+    .filter((r) =>
+      query.carrier ? r.carrier.toLowerCase().includes(String(query.carrier).toLowerCase()) : true,
+    )
     .filter((r) => (query.minPrice ? r.price >= Number(query.minPrice) : true))
     .filter((r) => (query.maxPrice ? r.price <= Number(query.maxPrice) : true));
 }
