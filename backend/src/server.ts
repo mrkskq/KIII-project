@@ -3,6 +3,7 @@ import cors from "cors";
 import * as fs from "fs";
 import * as path from "path";
 import type { BusRoute } from "./types/bus_route.js";
+import aiRoutes from "./ai.routes";
 
 // Kreirame server na porta 3001
 const app = express();
@@ -11,6 +12,7 @@ const PORT = 3001;
 // Dozvoluva na Vue frontend (5173) da prakja request do serverot (3001)
 app.use(cors({ origin: "http://localhost:5173" }));
 app.use(express.json());
+app.use("/ai",aiRoutes);
 
 const SCRAPED_DATA_PATH = path.join(__dirname, "../scraped_data/bus_routes.json");
 

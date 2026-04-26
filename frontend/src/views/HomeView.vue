@@ -4,8 +4,10 @@
     <p class="text-blue-200 mb-8 text-lg">Види ги автобуските линии низ цела Македонија</p>
     <SearchForm />
   </div>
+   <AiChatWidget />
 </template>
 
 <script setup lang="ts">
 import SearchForm from "../components/SearchForm.vue";
+import AiChatWidget from "../components/AiChatWidget.vue";
 </script>

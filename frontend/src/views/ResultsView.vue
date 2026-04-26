@@ -19,10 +19,12 @@
       </div>
     </div>
   </div>
+  <AiChatWidget/>
 </template>
 
 <script setup lang="ts">
 import { computed, onMounted } from "vue";
+import  AiChatWidget from "../components/AiChatWidget.vue"
 import { useRoute } from "vue-router";
 import { useBusRouteStore } from "../stores/bus_routes.ts";
 import RouteCard from "../components/RouteCard.vue";
@@ -42,8 +44,6 @@ const routesFoundText = computed(() => {
 });
 
 onMounted(() => {
-  if (store.routes.length === 0) {
-    store.search(String(route.query.to || ""));
-  }
+  store.search(String(route.query.to || ""));
 });
 </script>
