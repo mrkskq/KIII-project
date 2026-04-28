@@ -1,26 +1,20 @@
 <template>
   <div class="chat-box">
-
-    <button class="toggle" @click="open = !open">
-      💬
-    </button>
+    <button class="toggle" @click="open = !open">💬</button>
 
     <div v-if="open" class="panel">
-
-<div class="messages">
-  <div v-for="(m, i) in messages" :key="i" class="msg">
-    <div v-if="m.role === 'you'">🧑 {{ m.text }}</div>
-    <div v-else>🤖 <div style="white-space: pre-line">{{ m.text }}</div></div>
-  </div>
-</div>
+      <div class="messages">
+        <div v-for="(m, i) in messages" :key="i" class="msg">
+          <div v-if="m.role === 'you'">🧑 {{ m.text }}</div>
+          <div v-else>🤖 <div style="white-space: pre-line">{{ m.text }}</div></div>
+        </div>
+      </div>
       <input
         v-model="text"
-        placeholder="Ask about buses..."
+        placeholder="Побарај најефтина карта, следен термин..."
         @keyup.enter="send"
       />
-
     </div>
-
   </div>
 </template>
 
@@ -36,7 +30,6 @@ async function send() {
 
   const userMsg = text.value;
   messages.value.push({ role: "you", text: userMsg });
-
   text.value = "";
 
   const res = await fetch("http://localhost:3001/ai/ask", {
@@ -46,21 +39,19 @@ async function send() {
   });
 
   const data = await res.json();
-
   const routes = data.routes || [];
 
-  const formatted = routes
-    .map(r => `${r.destination} – ${r.time} – ${r.price} MKD`)
-    .join("\n");
+  // const formatted = routes
+  //   .map(r => `${r.destination} – ${r.time} – ${r.price} МКД${r.note ? " (" + r.note + ")" : ""}`)
+  //   .join("\n");
 
   messages.value.push({
     role: "ai",
-    text: data.answer +
-     formatted || "No routes found"
+    text: data.answer
   });
 }
 </script>
- 
+
 <style>
 .chat-box {
   position: fixed;
@@ -85,7 +76,6 @@ async function send() {
   display: flex;
   flex-direction: column;
 }
-
 
 .messages {
   flex: 1;

@@ -3,7 +3,7 @@
     ? 'flex items-center gap-2 bg-white border rounded-xl shadow p-2 w-full' 
     : 'bg-white rounded-2xl shadow-2xl p-8 w-full max-w-2xl'">
     
-    <!-- Од -->
+  
     <div :class="compact ? 'flex-1' : 'mb-4'">
       <div>
         <label v-if="!compact" class="text-sm font-semibold text-gray-500 uppercase">Од</label>
@@ -16,8 +16,7 @@
 
     <span v-if="compact" class="text-gray-400">⇄</span>
 
-    <!-- До -->
-    <!-- До -->
+
 <div :class="compact ? 'flex-1' : 'mb-4'" class="relative">
   <label v-if="!compact" class="text-sm font-semibold text-gray-500 uppercase">До</label>
   <input 
@@ -41,7 +40,6 @@
   </ul>
 </div>
 
-    <!-- Датум -->
     <div :class="compact ? 'flex-1' : 'mb-4'">
       <label v-if="!compact" class="text-sm font-semibold text-gray-500 uppercase">Датум:</label>
      <input v-model="date" type="date"
@@ -49,7 +47,6 @@
   :class="compact ? 'w-full border rounded-lg p-2 text-sm' : 'w-full border rounded-lg p-3 mt-1'" />
     </div>
 
-    <!-- Патници -->
     <div v-if="!compact" class="mb-6">
       <label class="text-sm font-semibold text-gray-500 uppercase">Број на патници:</label>
       <select v-model="passengers" class="w-full border rounded-lg p-3 mt-1">
@@ -57,7 +54,6 @@
       </select>
     </div>
 
-    <!-- Search Button -->
     <button @click="search"
       :class="compact 
         ? 'bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-xl text-sm whitespace-nowrap'

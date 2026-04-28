@@ -1,6 +1,5 @@
 <template>
-  
-  <div class="min-h-screen bg-gray-50">
+  <div class="min-h-screen bg-gray-50 ">
     <div class="bg-blue-700 text-white p-4 flex items-center gap-4">
       <RouterLink to="/" class="text-blue-200 hover:text-white"> ← Назад </RouterLink>
       <span class="font-bold text-lg mx-auto"> СКОПЈЕ → {{ route.query.to }} </span>
@@ -8,19 +7,16 @@
     </div>
     <div class="max-w-4xl mx-auto p-6">
       <div v-if="store.loading" class="text-center py-12 text-gray-500">Се вчитуваат автобуските линии...</div>
-
       <div v-else-if="store.error" class="text-red-600 text-center py-12">
         {{ store.error }}
       </div>
-
       <div v-else>
-   <!-- Отстрани го постоечкиот div wrapper и SearchForm -->
-<div class="bg-white border-b shadow-sm p-4">
-  <div class="max-w-4xl mx-auto">
-    <SearchForm :compact="true" />
-  </div>
-  <DateSlider/>
-</div>
+      <div class="bg-white border-b shadow-sm p-4">
+        <div class="max-w-4xl mx-auto">
+          <SearchForm :compact="true" />
+        </div>
+        <DateSlider/>
+      </div>
         <p class="text-gray-500 mb-4">{{ routesFoundText }}</p>
         <RouteCard v-for="(r, i) in store.routes" :key="i" :r="r" :passengers="passengers" />
       </div>

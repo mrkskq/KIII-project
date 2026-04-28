@@ -1,50 +1,40 @@
 import express from "express";
 import fs from "fs";
+import { searchRoutes } from "./ai";
 
 const router = express.Router();
-const routes = JSON.parse(
-  fs.readFileSync("./scraped_data/bus_routes.json", "utf-8")
-);
-
-// helper
-function hasValidDestination(question: string, routes: any[]) {
-  const q = question.toLowerCase();
-
-  return routes.some(r =>
-    r.destination &&
-    q.includes(r.destination.toLowerCase())
-  );
-}
+const routes = JSON.parse(fs.readFileSync("./scraped_data/bus_routes.json", "utf-8"));
 
 router.post("/ask", (req: any, res: any) => {
   const { question } = req.body;
 
-  if (!question) {
-    return res.status(400).json({ error: "No question" });
+  if (!question) return res.status(400).json({ error: "No question" });
+
+  const matched = searchRoutes(routes, question);
+
+  if (matched.length === 0) {
+    return res.json({ answer: "Нема пронајдени линии за твоето прашање.", routes: [] });
   }
 
   const q = question.toLowerCase();
 
-  const matched = routes.filter((r: any) =>
-    r.destination &&
-    q.includes(r.destination.toLowerCase())
-  );
+  let answerText = "";
 
-  if (matched.length === 0) {
-    return res.json({
-      answer: "Внеси правилен формат за прашање!",
-      routes: []
-    });
+  if (q.includes("следен") || q.includes("sleden") || q.includes("наредни") || q.includes("naredni")) {
+    answerText = `Следен автобус: ${matched[0].destination} – ${matched[0].time} – ${matched[0].price} МКД.`;
+  } else if (q.includes("најефтин") || q.includes("najeftin") || q.includes("evtin") || q.includes("ефтин")) {
+    answerText = `Најефтина линија: ${matched[0].destination} – ${matched[0].time} – ${matched[0].price} МКД.`;
+  } else if (q.includes("повратна") || q.includes("povratna")) {
+    const withReturn = matched.filter((r) => r.returnPrice && r.returnPrice > 0);
+    const cheapest = [...withReturn].sort((a, b) => a.returnPrice - b.returnPrice)[0];
+    answerText = `Повратна карта: ${cheapest.destination} – ${cheapest.time} – ${cheapest.returnPrice} МКД.`;
+  } else if (q.includes("најрано") || q.includes("najrano") || q.includes("rano")) {
+    answerText = `Најран автобус: ${matched[0].destination} – ${matched[0].time} – ${matched[0].price} МКД.`;
+  } else {
+    answerText = `Пронајдени ${matched.length} линии за ${matched[0].destination}.`;
   }
 
-  const cheapest = matched.reduce((min: any, r: any) =>
-    r.price < min.price ? r : min
-  , matched[0]);
-
-  return res.json({
-    answer: `Found ${matched.length} routes. Cheapest is ${cheapest.destination} at ${cheapest.price} MKD.`,
-    routes: matched
-  });
+  return res.json({ answer: answerText, routes: matched });
 });
 
 export default router;
