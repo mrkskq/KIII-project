@@ -6,14 +6,13 @@
       <div class="messages">
         <div v-for="(m, i) in messages" :key="i" class="msg">
           <div v-if="m.role === 'you'">🧑 {{ m.text }}</div>
-          <div v-else>🤖 <div style="white-space: pre-line">{{ m.text }}</div></div>
+          <div v-else>
+            🤖
+            <div style="white-space: pre-line">{{ m.text }}</div>
+          </div>
         </div>
       </div>
-      <input
-        v-model="text"
-        placeholder="Побарај најефтина карта, следен термин..."
-        @keyup.enter="send"
-      />
+      <input v-model="text" placeholder="Побарај најефтина карта, следен термин..." @keyup.enter="send" />
     </div>
   </div>
 </template>
@@ -35,7 +34,7 @@ async function send() {
   const res = await fetch("http://localhost:3001/ai/ask", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ question: userMsg })
+    body: JSON.stringify({ question: userMsg }),
   });
 
   const data = await res.json();
@@ -47,7 +46,7 @@ async function send() {
 
   messages.value.push({
     role: "ai",
-    text: data.answer
+    text: data.answer,
   });
 }
 </script>

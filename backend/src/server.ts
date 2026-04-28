@@ -12,7 +12,7 @@ const PORT = 3001;
 // Dozvoluva na Vue frontend (5173) da prakja request do serverot (3001)
 app.use(cors({ origin: "http://localhost:5173" }));
 app.use(express.json());
-app.use("/ai",aiRoutes);
+app.use("/ai", aiRoutes);
 
 const SCRAPED_DATA_PATH = path.join(__dirname, "../scraped_data/bus_routes.json");
 
@@ -26,12 +26,8 @@ const bus_routes: BusRoute[] = JSON.parse(fs.readFileSync(SCRAPED_DATA_PATH, "ut
 // Za filtriranje
 function filterRoutes(query: any, data: BusRoute[]) {
   return data
-    .filter((r) =>
-      query.to ? r.destination.toLowerCase().includes(String(query.to).toLowerCase()) : true,
-    )
-    .filter((r) =>
-      query.carrier ? r.carrier.toLowerCase().includes(String(query.carrier).toLowerCase()) : true,
-    )
+    .filter((r) => (query.to ? r.destination.toLowerCase().includes(String(query.to).toLowerCase()) : true))
+    .filter((r) => (query.carrier ? r.carrier.toLowerCase().includes(String(query.carrier).toLowerCase()) : true))
     .filter((r) => (query.minPrice ? r.price >= Number(query.minPrice) : true))
     .filter((r) => (query.maxPrice ? r.price <= Number(query.maxPrice) : true));
 }
@@ -54,7 +50,9 @@ app.get("/api/destinations", (_req, res) => {
 
 // GET /api/carriers —> Vrakja lista na prevoznici
 app.get("/api/carriers", (_req, res) => {
-  const data = [...new Set(bus_routes.map((r) => r.carrier))];
+  const to = String(_req.query.to || "");
+  const filtered = to ? bus_routes.filter((r) => r.destination.toLowerCase().includes(to.toLowerCase())) : bus_routes;
+  const data = [...new Set(filtered.map((r) => r.carrier))].sort();
   res.json(data);
 });
 

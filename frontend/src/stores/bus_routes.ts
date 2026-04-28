@@ -35,5 +35,10 @@ export const useBusRouteStore = defineStore("bus_routes", () => {
     }
   }
 
-  return { routes, destinations, carriers, loading, error, fetchDestinations, search };
+  async function fetchCarriers(to: string) {
+    const { data } = await axios.get<string[]>(`${API}/carriers?to=${to}`);
+    carriers.value = data;
+  }
+
+  return { routes, destinations, carriers, loading, error, fetchDestinations, fetchCarriers, search };
 });
