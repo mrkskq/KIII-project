@@ -5,14 +5,14 @@
     <div v-if="open" class="panel">
       <div class="messages">
         <div v-for="(m, i) in messages" :key="i" class="msg">
-          <div v-if="m.role === 'you'">🧑 {{ m.text }}</div>
+          <div v-if="m.role === 'you'">👤 {{ m.text }}</div>
           <div v-else>
             🤖
             <div style="white-space: pre-line">{{ m.text }}</div>
           </div>
         </div>
       </div>
-      <input v-model="text" placeholder="Побарај најефтина карта, следен термин..." @keyup.enter="send" />
+      <input v-model="text" placeholder="Постави прашање..." @keyup.enter="send" />
     </div>
   </div>
 </template>
@@ -23,7 +23,6 @@ import { ref } from "vue";
 const open = ref(false);
 const text = ref("");
 const messages = ref([]);
-
 async function send() {
   if (!text.value) return;
 
