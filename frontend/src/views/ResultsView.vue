@@ -1,7 +1,7 @@
 <template>
   <div
     class="min-h-screen"
-    style="background-image: url('./public/avtobuskaskopje.gif'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed"
+    style="background-image: url(&quot;./public/avtobuskaskopje.gif&quot;); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed"
   >
     <div class="fixed inset-0 bg-blue-900/50 pointer-events-none z-0"></div>
 
@@ -27,7 +27,6 @@
 
       <!-- Split layout -->
       <div v-else class="flex gap-4 items-start">
-
         <!-- Лево: листа на линии -->
         <div class="flex-1 min-w-0 overflow-y-auto max-h-[calc(100vh-260px)]">
           <RouteCard
@@ -36,19 +35,16 @@
             :r="r"
             :passengers="passengers"
             :selected="selectedRoute?.destination === r.destination && selectedRoute?.time === r.time"
-            @select="selectedRoute = r; selectedDestination = r.destination"
+            @select="
+              selectedRoute = r;
+              selectedDestination = r.destination;
+            "
           />
         </div>
 
-        <!-- Десно: статична карта -->
-        <!-- Десно: статична карта -->
-<div style="width: 440px; flex-shrink: 0; position: sticky; top: 88px; height: calc(100vh - 120px);">
-  <RouteMap
-    v-if="selectedDestination"
-    :destination="selectedDestination"
-  />
-</div>
-
+        <div style="width: 440px; flex-shrink: 0; position: sticky; top: 88px" class="self-stretch">
+          <RouteMap v-if="selectedDestination" :destination="selectedDestination" class="h-full" />
+        </div>
       </div>
     </div>
   </div>
@@ -56,45 +52,48 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, ref, watch } from 'vue'
-import { useRoute } from 'vue-router'
-import { useBusRouteStore } from '../stores/bus_routes'
-import type { BusRoute } from '../types/bus_route'
-import RouteCard from '../components/RouteCard.vue'
-import RouteMap from '../components/RouteMap.vue'
-import SearchForm from '../components/SearchForm.vue'
-import DateSlider from '../components/DateSlider.vue'
-import AiChatWidget from '../components/AiChatWidget.vue'
+import { computed, onMounted, ref, watch } from "vue";
+import { useRoute } from "vue-router";
+import { useBusRouteStore } from "../stores/bus_routes";
+import type { BusRoute } from "../types/bus_route";
+import RouteCard from "../components/RouteCard.vue";
+import RouteMap from "../components/RouteMap.vue";
+import SearchForm from "../components/SearchForm.vue";
+import DateSlider from "../components/DateSlider.vue";
+import AiChatWidget from "../components/AiChatWidget.vue";
 
-const route = useRoute()
-const store = useBusRouteStore()
+const route = useRoute();
+const store = useBusRouteStore();
 
-const passengers = computed(() => Number(route.query.p) || 1)
-const selectedRoute = ref<BusRoute | null>(null)
-const selectedDestination = ref<string>('')
+const passengers = computed(() => Number(route.query.p) || 1);
+const selectedRoute = ref<BusRoute | null>(null);
+const selectedDestination = ref<string>("");
 
 const routesFoundText = computed(() => {
-  const count = store.routes.length
-  if (count === 0) return 'Нема автобуски линии'
-  if (count === 1) return '1 автобуска линија пронајдена'
-  return `${count} автобуски линии пронајдени`
-})
+  const count = store.routes.length;
+  if (count === 0) return "Нема автобуски линии";
+  if (count === 1) return "1 автобуска линија пронајдена";
+  return `${count} автобуски линии пронајдени`;
+});
 
 onMounted(() => {
-  store.search(String(route.query.to || ''), String(route.query.carrier || ''))
-})
+  store.search(String(route.query.to || ""), String(route.query.carrier || ""));
+});
 
-watch(() => store.routes, (newRoutes) => {
-  if (newRoutes.length > 0) {
-    selectedRoute.value = newRoutes[0]
-    selectedDestination.value = newRoutes[0].destination
-  }
-})
+watch(
+  () => store.routes,
+  (newRoutes) => {
+    if (newRoutes.length > 0) {
+      selectedRoute.value = newRoutes[0];
+      selectedDestination.value = newRoutes[0].destination;
+    }
+  },
+);
 
 watch(
   () => [route.query.to, route.query.carrier],
   ([newTo, newCarrier]) => {
-    store.search(String(newTo || ''), String(newCarrier || ''))
-  }
-)
+    store.search(String(newTo || ""), String(newCarrier || ""));
+  },
+);
 </script>
