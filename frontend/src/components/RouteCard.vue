@@ -1,5 +1,8 @@
 <template>
-  <div class="rounded-xl border border-gray-200 mb-3 overflow-hidden hover:shadow-md transition bg-white">
+  <div 
+  @click="emit('select')"
+  :class="['rounded-xl border mb-3 overflow-hidden transition bg-white cursor-pointer',
+    selected ? 'border-blue-500 shadow-md ring-2 ring-blue-300' : 'border-gray-200 hover:shadow-md']">
     <div class="flex items-center gap-4 px-5 py-4">
       <div class="w-11 h-11 rounded-full flex items-center justify-center text-white font-semibold text-sm flex-shrink-0" :style="{ backgroundColor: getCarrierColor(r.carrier) }">
         {{ getCarrierInitials(r.carrier) }}
@@ -52,10 +55,10 @@
 </template>
 
 <script setup lang="ts">
-import { getCarrierInitials, getCarrierColor } from "../utils/carrierImage";
+import { getCarrierInitials, getCarrierColor } from '../utils/carrierImage'
+import { ref } from 'vue'
+import RouteMap from './RouteMap.vue'
 
-defineProps<{
-  r: any;
-  passengers: number;
-}>();
+defineProps<{ r: any; passengers: number; selected?: boolean }>()
+const emit = defineEmits<{ select: [] }>()
 </script>
