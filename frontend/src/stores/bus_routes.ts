@@ -26,8 +26,6 @@ export const useBusRouteStore = defineStore("bus_routes", () => {
       if (carrier) params.set("carrier", carrier);
       const { data } = await axios.get(`${API}/routes?${params.toString()}`);
       routes.value = data.routes;
-      console.log("API response:", data);
-      console.log("params:", params.toString());
     } catch (e) {
       error.value = "Could not load routes. Is the API running?";
     } finally {

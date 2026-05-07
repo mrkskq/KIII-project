@@ -14,8 +14,9 @@
             ? 'bg-blue-50 text-blue-700 border-blue-400 font-bold'
             : d < TODAY
               ? 'bg-gray-100 text-gray-300 cursor-not-allowed border-gray-200'
-              : 'bg-white text-gray-600 hover:border-blue-400'
-        ]">
+              : 'bg-white text-gray-600 hover:border-blue-400',
+        ]"
+      >
         <span>{{ formatDate(d) }}</span>
       </button>
     </div>
@@ -28,25 +29,21 @@
 import { ref, computed } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import { useBusRouteStore } from "../stores/bus_routes.ts";
+import { getTodayStr } from "../utils/date";
 
 const router = useRouter();
 const route = useRoute();
 const store = useBusRouteStore();
 
 const VISIBLE = 5;
-const now = new Date();
-const TODAY = now.getFullYear() + "-" + 
-  String(now.getMonth() + 1).padStart(2, "0") + "-" + 
-  String(now.getDate()).padStart(2, "0");
+const TODAY = getTodayStr();
 
 const selectedDate = ref(String(route.query.date || TODAY));
 const startOffset = ref(0);
 function addDays(base: string, n: number): string {
   const [year, month, day] = base.split("-").map(Number);
   const d = new Date(year, month - 1, day + n);
-  return d.getFullYear() + "-" + 
-    String(d.getMonth() + 1).padStart(2, "0") + "-" + 
-    String(d.getDate()).padStart(2, "0");
+  return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
 }
 
 const windowStart = computed(() => {
@@ -64,7 +61,6 @@ function slide(dir: number) {
   startOffset.value = newOffset;
 }
 
-
 function selectDate(dateStr: string, index: number) {
   if (dateStr < TODAY) return;
 
@@ -77,7 +73,7 @@ function selectDate(dateStr: string, index: number) {
   selectedDate.value = dateStr;
   router.push({
     path: "/results",
-    query: { ...route.query, date: dateStr }
+    query: { ...route.query, date: dateStr },
   });
   store.search(String(route.query.to || ""));
 }
@@ -85,7 +81,9 @@ function selectDate(dateStr: string, index: number) {
 function formatDate(dateStr: string) {
   const [year, month, day] = dateStr.split("-").map(Number);
   return new Date(year, month - 1, day).toLocaleDateString("mk-MK", {
-    weekday: "short", day: "numeric", month: "short"
+    weekday: "short",
+    day: "numeric",
+    month: "short",
   });
 }
 </script>

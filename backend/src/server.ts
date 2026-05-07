@@ -3,6 +3,7 @@ import cors from "cors";
 import * as fs from "fs";
 import * as path from "path";
 import type { BusRoute } from "./types/bus_route.js";
+import { filterRoutes } from "../utils/filterRoutes";
 import aiRoutes from "./ai.routes";
 
 // Kreirame server na porta 3001
@@ -22,15 +23,6 @@ if (!fs.existsSync(SCRAPED_DATA_PATH)) {
 }
 
 const bus_routes: BusRoute[] = JSON.parse(fs.readFileSync(SCRAPED_DATA_PATH, "utf-8"));
-
-// Za filtriranje
-function filterRoutes(query: any, data: BusRoute[]) {
-  return data
-    .filter((r) => (query.to ? r.destination.toLowerCase().includes(String(query.to).toLowerCase()) : true))
-    .filter((r) => (query.carrier ? r.carrier.toLowerCase().includes(String(query.carrier).toLowerCase()) : true))
-    .filter((r) => (query.minPrice ? r.price >= Number(query.minPrice) : true))
-    .filter((r) => (query.maxPrice ? r.price <= Number(query.maxPrice) : true));
-}
 
 // GET /api/routes -> Vrakja lista na avtobuski ruti
 app.get("/api/routes", (req, res) => {

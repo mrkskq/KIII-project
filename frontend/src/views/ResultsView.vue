@@ -60,6 +60,7 @@
 import { computed, onMounted, ref, watch } from "vue";
 import { useRoute } from "vue-router";
 import { useBusRouteStore } from "../stores/bus_routes";
+import { useRouteBadges } from "../composables/useRouteBadges";
 import type { BusRoute } from "../types/bus_route";
 import RouteCard from "../components/RouteCard.vue";
 import RouteMap from "../components/RouteMap.vue";
@@ -75,74 +76,7 @@ const passengers = computed(() => Number(route.query.p) || 1);
 const selectedRoute = ref<BusRoute | null>(null);
 const selectedDestination = ref<string>("");
 
-const cheapestPrice = computed(() => (store.routes.length ? Math.min(...store.routes.map((r) => r.price)) : 0));
-
-const cheapestRoute = computed(() => store.routes.filter((r) => r.price === cheapestPrice.value).sort((a, b) => a.time.localeCompare(b.time))[0] ?? null);
-
-const nextRoute = computed(() => {
-  const now = new Date();
-  const nowMinutes = now.getHours() * 60 + now.getMinutes();
-
-  return (
-    store.routes
-      .map((r) => {
-        const [h, m] = r.time.split(":").map(Number);
-        return { ...r, minutes: h * 60 + m };
-      })
-      .filter((r) => r.minutes >= nowMinutes)
-      .sort((a, b) => a.minutes - b.minutes)[0] ?? null
-  );
-});
-
-const cheapestReturnPrice = computed(() => (store.routes.some((r) => r.returnPrice > 0) ? Math.min(...store.routes.filter((r) => r.returnPrice > 0).map((r) => r.returnPrice)) : 0));
-
-const cheapestReturnNext = computed(() => {
-  if (!cheapestReturnPrice.value) return null;
-
-  const now = new Date();
-  const nowMinutes = now.getHours() * 60 + now.getMinutes();
-
-  const candidates = store.routes
-    .filter((r) => r.returnPrice === cheapestReturnPrice.value)
-    .map((r) => {
-      const [h, m] = r.time.split(":").map(Number);
-      return { ...r, minutes: h * 60 + m };
-    })
-    .filter((r) => r.minutes >= nowMinutes)
-    .sort((a, b) => a.minutes - b.minutes);
-
-  const next = nextRoute.value;
-  const cheapest = cheapestRoute.value;
-
-  return (
-    candidates.find((r) => {
-      const isNext = next && r.time === next.time && r.carrier === next.carrier && r.destination === next.destination;
-
-      const isCheapest = cheapest && r.time === cheapest.time && r.carrier === cheapest.carrier && r.destination === cheapest.destination;
-
-      return !isNext && !isCheapest;
-    }) ??
-    candidates[0] ??
-    null
-  );
-});
-
-function getBadge(r: BusRoute): "recommended" | "next" | "cheapest" | null {
-  const recommended = cheapestReturnNext.value;
-  const next = nextRoute.value;
-  const cheapest = cheapestRoute.value;
-
-  const same = (a: BusRoute | null, b: BusRoute) => {
-    if (!a) return false;
-    return a.time === b.time && a.carrier === b.carrier && a.destination === b.destination && a.price === b.price && a.returnPrice === b.returnPrice;
-  };
-
-  if (same(recommended, r)) return "recommended";
-  if (same(next, r)) return "next";
-  if (same(cheapest, r)) return "cheapest";
-
-  return null;
-}
+const { getBadge } = useRouteBadges(computed(() => store.routes));
 
 const routesFoundText = computed(() => {
   const count = store.routes.length;

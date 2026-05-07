@@ -48,13 +48,6 @@
       <input v-model="date" type="date" :min="TODAY" :class="compact ? 'w-full border rounded-lg p-2 text-sm' : 'w-full border rounded-lg p-3 mt-1'" />
     </div>
 
-    <!-- <div v-if="compact && destination && store.carriers.length > 0" :class="'flex-1'">
-      <select v-model="carrier" class="w-full border rounded-lg p-2 text-sm">
-        <option value="">Сите превозници</option>
-        <option v-for="c in store.carriers" :key="c" :value="c">{{ c }}</option>
-      </select>
-    </div> -->
-
     <div v-if="compact && destination && store.carriers.length > 0" class="flex-1 relative">
       <div @click="showCarrierDropdown = !showCarrierDropdown" class="w-full border rounded-lg p-2 text-sm cursor-pointer flex items-center justify-between bg-white hover:border-blue-400 transition">
         <span :class="carrier ? 'text-gray-800' : 'text-gray-400'">
@@ -113,6 +106,7 @@ import { ref, computed, onMounted, watch } from "vue";
 import { useRouter } from "vue-router";
 import { useBusRouteStore } from "../stores/bus_routes.ts";
 import { useRoute } from "vue-router";
+import { getTodayStr } from "../utils/date";
 const showDropdown = ref(false);
 const showCarrierDropdown = ref(false);
 const isTyping = ref(false);
@@ -131,7 +125,7 @@ const router = useRouter();
 const store = useBusRouteStore();
 
 const destination = ref(String(route.query.to || ""));
-const date = ref(String(route.query.date || new Date().toISOString().split("T")[0]));
+const date = ref(String(route.query.date || getTodayStr()));
 watch(
   () => route.query.date as string,
   (newDate) => {
@@ -149,10 +143,7 @@ const passengers = ref(1);
 const sortedDestinations = computed(() => {
   return [...store.destinations].sort((a, b) => a.localeCompare(b));
 });
-const now = new Date();
-const TODAY = now.getFullYear() + "-" + String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0");
-
-// onMounted(() => store.fetchDestinations());
+const TODAY = getTodayStr();
 
 const carrier = ref(String(route.query.carrier || ""));
 
