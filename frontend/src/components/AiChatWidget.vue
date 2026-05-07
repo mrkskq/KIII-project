@@ -16,14 +16,9 @@
       </div>
 
       <div class="chat-messages" ref="msgBox">
-        <div
-          v-for="(m, i) in messages"
-          :key="i"
-          class="msg-row"
-          :class="{ user: m.role === 'you' }"
-        >
+        <div v-for="(m, i) in messages" :key="i" class="msg-row" :class="{ user: m.role === 'you' }">
           <div class="msg-icon" :class="m.role === 'you' ? 'user' : 'ai'">
-            {{ m.role === 'you' ? '👤' : '🤖' }}
+            {{ m.role === "you" ? "👤" : "🤖" }}
           </div>
           <div class="bubble" :class="m.role === 'you' ? 'user' : 'ai'">
             {{ m.text }}
@@ -32,12 +27,7 @@
       </div>
 
       <div class="chat-input-row">
-        <input
-          v-model="text"
-          class="chat-input"
-          placeholder="Постави прашање..."
-          @keyup.enter="send"
-        />
+        <input v-model="text" class="chat-input" placeholder="Постави прашање..." @keyup.enter="send" />
         <button class="send-btn" @click="send">➤</button>
       </div>
     </div>
@@ -47,13 +37,11 @@
 <script setup>
 import { ref, nextTick } from "vue";
 
-const props = defineProps({ defaultOpen: { type: Boolean, default: false } })
-const open = ref(props.defaultOpen)
+const props = defineProps({ defaultOpen: { type: Boolean, default: false } });
+const open = ref(props.defaultOpen);
 // const open = ref(false);
 const text = ref("");
-const messages = ref([
-  { role: "ai", text: "Здраво! Можам да ти помогнам да најдеш автобус. Прашај ме нешто! 🚌" }
-]);
+const messages = ref([{ role: "ai", text: "Здраво! Планираш патување? Ќе ти помогнам да ја најдеш најдобрата автобуска линија. 🚌" }]);
 const msgBox = ref(null);
 
 async function send() {
@@ -108,7 +96,7 @@ async function send() {
   display: flex;
   flex-direction: column;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
-  border: 0.5px solid rgba(0,0,0,0.08);
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
 }
 
 .chat-header {
@@ -123,24 +111,35 @@ async function send() {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.2);
-  border: 2px solid rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 18px;
 }
 
-.chat-header-info { flex: 1; }
-.chat-header-name { color: #fff; font-size: 14px; font-weight: 600; margin: 0; }
-.chat-header-sub { color: rgba(255,255,255,0.7); font-size: 11px; margin: 0; }
+.chat-header-info {
+  flex: 1;
+}
+.chat-header-name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+.chat-header-sub {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 11px;
+  margin: 0;
+}
 
 .online-dot {
   width: 9px;
   height: 9px;
   border-radius: 50%;
   background: #4ade80;
-  border: 2px solid rgba(255,255,255,0.4);
+  border: 2px solid rgba(255, 255, 255, 0.4);
 }
 
 .chat-messages {
@@ -159,7 +158,9 @@ async function send() {
   align-items: flex-end;
 }
 
-.msg-row.user { flex-direction: row-reverse; }
+.msg-row.user {
+  flex-direction: row-reverse;
+}
 
 .msg-icon {
   width: 28px;
@@ -172,8 +173,12 @@ async function send() {
   flex-shrink: 0;
 }
 
-.msg-icon.ai { background: linear-gradient(135deg, #1d4ed8, #1d4ed8); }
-.msg-icon.user { background: #e0e7ff; }
+.msg-icon.ai {
+  background: linear-gradient(135deg, #1d4ed8, #1d4ed8);
+}
+.msg-icon.user {
+  background: #e0e7ff;
+}
 
 .bubble {
   max-width: 78%;
@@ -187,7 +192,7 @@ async function send() {
   background: #fff;
   color: #1a1a1a;
   border-bottom-left-radius: 4px;
-  border: 0.5px solid rgba(0,0,0,0.08);
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
 }
 
 .bubble.user {
@@ -201,13 +206,13 @@ async function send() {
   align-items: center;
   gap: 8px;
   padding: 10px 12px;
-  border-top: 0.5px solid rgba(0,0,0,0.08);
+  border-top: 0.5px solid rgba(0, 0, 0, 0.08);
   background: #fff;
 }
 
 .chat-input {
   flex: 1;
-  border: 0.5px solid rgba(0,0,0,0.12);
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
   border-radius: 20px;
   padding: 8px 14px;
   font-size: 12.5px;

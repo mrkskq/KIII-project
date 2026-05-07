@@ -81,7 +81,7 @@ export function askAI(question: string) {
   } else if (q.includes("najrano") || q.includes("rano") || q.includes("najran")) {
     answer = `Најраниот автобус за ${matched[0].destination} е во ${matched[0].time} часот (${matched[0].price} ден.)`;
   } else {
-    answer = `Прашај ме за следна/најевтина линија, за повратна карта или пак за најраниот автобус до ${matched[0].destination} :)`;
+    answer = `Прашај ме за следна/најевтина линија, за повратна карта или пак за најраниот автобус до твојата одбрана дестинација 😊`;
   }
 
   return { answer, routes: matched };
