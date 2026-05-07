@@ -77,7 +77,7 @@ const selectedDestination = ref<string>("");
 
 const cheapestPrice = computed(() => (store.routes.length ? Math.min(...store.routes.map((r) => r.price)) : 0));
 
-const cheapestReturnPrice = computed(() => (store.routes.filter((r) => r.returnPrice > 0).length ? Math.min(...store.routes.filter((r) => r.returnPrice > 0).map((r) => r.returnPrice)) : 0));
+const cheapestRoute = computed(() => store.routes.filter((r) => r.price === cheapestPrice.value).sort((a, b) => a.time.localeCompare(b.time))[0] ?? null);
 
 const nextRoute = computed(() => {
   const now = new Date();
@@ -94,53 +94,52 @@ const nextRoute = computed(() => {
   );
 });
 
+const cheapestReturnPrice = computed(() => (store.routes.some((r) => r.returnPrice > 0) ? Math.min(...store.routes.filter((r) => r.returnPrice > 0).map((r) => r.returnPrice)) : 0));
+
 const cheapestReturnNext = computed(() => {
   if (!cheapestReturnPrice.value) return null;
 
   const now = new Date();
   const nowMinutes = now.getHours() * 60 + now.getMinutes();
 
-  const takenKeys = new Set<string>();
+  const candidates = store.routes
+    .filter((r) => r.returnPrice === cheapestReturnPrice.value)
+    .map((r) => {
+      const [h, m] = r.time.split(":").map(Number);
+      return { ...r, minutes: h * 60 + m };
+    })
+    .filter((r) => r.minutes >= nowMinutes)
+    .sort((a, b) => a.minutes - b.minutes);
 
-  if (nextRoute.value) {
-    takenKeys.add(`${nextRoute.value.time}_${nextRoute.value.carrier}`);
-  }
-
-  const cheapest = store.routes.find((r) => r.price === cheapestPrice.value);
-  if (cheapest) {
-    takenKeys.add(`${cheapest.time}_${cheapest.carrier}`);
-  }
+  const next = nextRoute.value;
+  const cheapest = cheapestRoute.value;
 
   return (
-    store.routes
-      .filter((r) => r.returnPrice === cheapestReturnPrice.value)
-      .map((r) => {
-        const [h, m] = r.time.split(":").map(Number);
-        return { ...r, minutes: h * 60 + m };
-      })
-      .filter((r) => r.minutes >= nowMinutes)
-      .filter((r) => !takenKeys.has(`${r.time}_${r.carrier}`))
-      .sort((a, b) => a.minutes - b.minutes)[0] ?? null
+    candidates.find((r) => {
+      const isNext = next && r.time === next.time && r.carrier === next.carrier && r.destination === next.destination;
+
+      const isCheapest = cheapest && r.time === cheapest.time && r.carrier === cheapest.carrier && r.destination === cheapest.destination;
+
+      return !isNext && !isCheapest;
+    }) ??
+    candidates[0] ??
+    null
   );
 });
 
-function getBadge(r: BusRoute): "next" | "cheapest" | "recommended" | null {
-  const next = nextRoute.value;
-  if (next && r.time === next.time && r.carrier === next.carrier) {
-    return "next";
-  }
-
-  const cheapest = store.routes.filter((x) => x.price === cheapestPrice.value).sort((a, b) => a.time.localeCompare(b.time))[0];
-
-  if (cheapest && r.time === cheapest.time && r.carrier === cheapest.carrier) {
-    return "cheapest";
-  }
-
+function getBadge(r: BusRoute): "recommended" | "next" | "cheapest" | null {
   const recommended = cheapestReturnNext.value;
+  const next = nextRoute.value;
+  const cheapest = cheapestRoute.value;
 
-  if (recommended && r.time === recommended.time && r.carrier === recommended.carrier) {
-    return "recommended";
-  }
+  const same = (a: BusRoute | null, b: BusRoute) => {
+    if (!a) return false;
+    return a.time === b.time && a.carrier === b.carrier && a.destination === b.destination && a.price === b.price && a.returnPrice === b.returnPrice;
+  };
+
+  if (same(recommended, r)) return "recommended";
+  if (same(next, r)) return "next";
+  if (same(cheapest, r)) return "cheapest";
 
   return null;
 }
