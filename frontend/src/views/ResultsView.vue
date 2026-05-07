@@ -12,7 +12,7 @@
       <span class="text-blue-200">{{ route.query.date }}</span>
     </div>
 
-    <div class="relative z-10 max-w-7xl mx-auto p-4">
+    <div class="relative z-10 max-w-7xl ml-11 mt-4 p-4 ">
       <!-- Search bar -->
       <div class="bg-white rounded-t-xl border-b shadow-sm p-4">
         <SearchForm :compact="true" />
@@ -27,8 +27,7 @@
 
       <!-- Split layout -->
       <div v-else class="flex gap-4 items-start">
-        <!-- Лево: листа на линии -->
-        <div class="flex-1 min-w-0 overflow-y-auto max-h-[calc(100vh-260px)]">
+        <div class="flex-1 min-w-0 overflow-y-auto max-h-[calc(100vh-323px)]">
           <RouteCard
             v-for="(r, i) in store.routes"
             :key="i"
@@ -48,7 +47,7 @@
       </div>
     </div>
   </div>
-  <AiChatWidget />
+  <AiChatWidget :defaultOpen="true" />
 </template>
 
 <script setup lang="ts">

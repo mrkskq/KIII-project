@@ -74,23 +74,18 @@ async function drawRoute() {
   const dest = cityCoords[destKey]
 
   if (!dest) return
-
-  // Исчисти стари слоеви
   map.eachLayer(l => {
     if (l instanceof L.Polyline || l instanceof L.Marker) l.remove()
   })
 
-  // Маркери веднаш
   L.marker(origin, { icon: blueIcon }).bindPopup('<b>Скопје</b>').addTo(map!)
   L.marker(dest, { icon: redIcon }).bindPopup(`<b>${props.destination}</b>`).addTo(map!)
 
-  // Права линија привремено додека се вчитува рутата
   const straightLine = L.polyline([origin, dest], {
     color: '#93c5fd', weight: 2, dashArray: '6,6'
   }).addTo(map!)
   map!.fitBounds(straightLine.getBounds(), { padding: [50, 50] })
 
-  // Реална патна рута преку OSRM
   try {
     loading.value = true
     const url = `https://router.project-osrm.org/route/v1/driving/${origin[1]},${origin[0]};${dest[1]},${dest[0]}?overview=full&geometries=geojson`
@@ -98,7 +93,6 @@ async function drawRoute() {
     const json = await res.json()
 
     if (json.routes && json.routes[0]) {
-      // Отстрани привремената линија
       straightLine.remove()
 
       const coords = json.routes[0].geometry.coordinates.map(
@@ -114,7 +108,6 @@ async function drawRoute() {
       map!.fitBounds(routeLayer.getBounds(), { padding: [50, 50] })
     }
   } catch (e) {
-    // Ако OSRM не работи, остани со правата линија
     console.warn('OSRM failed, showing straight line')
   } finally {
     loading.value = false
