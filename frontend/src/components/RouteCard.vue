@@ -68,15 +68,11 @@
 
         <span class="text-xs text-gray-500 font-medium">{{ r.carrier }}</span>
 
-        <span class="inline-flex items-center justify-center gap-1 px-3 py-1 rounded-full text-xs font-semibold text-gray-700 bg-gray-50 border border-gray-300">
-          <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-            <circle cx="12" cy="12" r="10" />
-            <path d="M12 6v6l4 2" />
-          </svg>
-          {{ r.time }}
-        </span>
       </div>
-      <button class="border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-5 py-1.5 rounded-lg text-sm font-semibold transition">Одбери</button>
+      <div class="flex flex-col items-end">
+        <span class="text-l font-bold text-gray-900">{{ r.time }}</span>
+       <span class="text-xs text-gray-400">поаѓање</span>
+      </div>
     </div>
   </div>
 </template>
