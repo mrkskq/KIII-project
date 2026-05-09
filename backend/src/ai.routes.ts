@@ -4,13 +4,13 @@ import { askAI } from "./ai";
 const router = express.Router();
 
 router.post("/ask", (req: any, res: any) => {
-  const { question } = req.body;
+  const { question, context } = req.body;
 
   if (!question) {
     return res.status(400).json({ error: "Нема прашање :/" });
   }
 
-  const result = askAI(question);
+  const result = askAI(question, context);
   return res.json(result);
 });
 

@@ -39,10 +39,10 @@ import { ref, nextTick } from "vue";
 
 const props = defineProps({ defaultOpen: { type: Boolean, default: false } });
 const open = ref(props.defaultOpen);
-// const open = ref(false);
 const text = ref("");
 const messages = ref([{ role: "ai", text: "Здраво! Планираш патување? Ќе ти помогнам да ја најдеш најдобрата автобуска линија. 🚌" }]);
 const msgBox = ref(null);
+const lastCity = ref("");
 
 async function send() {
   if (!text.value.trim()) return;
@@ -55,9 +55,12 @@ async function send() {
   const res = await fetch("http://localhost:3001/ai/ask", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ question: userMsg }),
+    body: JSON.stringify({ question: userMsg, context: lastCity.value }),
   });
   const data = await res.json();
+
+  if (data.detectedCity) lastCity.value = data.detectedCity;
+
   messages.value.push({ role: "ai", text: data.answer });
   await nextTick();
   if (msgBox.value) msgBox.value.scrollTop = msgBox.value.scrollHeight;
