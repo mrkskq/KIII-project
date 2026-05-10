@@ -27,6 +27,7 @@ export function damLev(a: string, b: string): number {
 }
 
 export function fuzzyMatch(word: string, dest: string): boolean {
+  if (word.length < 4) return false;
   if (Math.abs(word.length - dest.length) > 2) return false;
   const maxDist = Math.max(1, Math.floor(dest.length * 0.3));
   return damLev(word, dest) <= maxDist;

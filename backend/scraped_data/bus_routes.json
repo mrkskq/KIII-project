@@ -721,35 +721,35 @@
     "returnPrice": 0
   },
   {
-    "time": "0830",
+    "time": "08:30",
     "destination": "ГРАДСКО",
     "carrier": "РОМАН ПРИЛЕП",
     "price": 300,
     "returnPrice": 490
   },
   {
-    "time": "0830",
+    "time": "08:30",
     "destination": "РОСОМАН",
     "carrier": "РОМАН ПРИЛЕП",
     "price": 340,
     "returnPrice": 520
   },
   {
-    "time": "0830",
+    "time": "08:30",
     "destination": "КАМЕН ДОЛ",
     "carrier": "РОМАН ПРИЛЕП",
     "price": 310,
     "returnPrice": 0
   },
   {
-    "time": "0830",
+    "time": "08:30",
     "destination": "ДРЕНОВО",
     "carrier": "РОМАН ПРИЛЕП",
     "price": 380,
     "returnPrice": 610
   },
   {
-    "time": "0830",
+    "time": "08:30",
     "destination": "ФАРИШ",
     "carrier": "РОМАН ПРИЛЕП",
     "price": 410,
