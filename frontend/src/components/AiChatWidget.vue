@@ -10,7 +10,7 @@
         <div class="chat-avatar">🤖</div>
         <div class="chat-header-info">
           <p class="chat-header-name">AI Асистент</p>
-          <p class="chat-header-sub">SkopjeBUS</p>
+          <p class="chat-header-sub">Busly</p>
         </div>
         <div class="online-dot" />
       </div>
