@@ -34,6 +34,9 @@ Search for bus routes departing from Skopje to any city in Macedonia and beyond 
   - Cheapest available fare
   - Earliest morning departure
   - Best return ticket option
+  - Which carriers operate to a given city
+  - All destinations served by a specific carrier
+- **Fuzzy search** — the AI assistant tolerates typos, mixed scripts (Cyrillic/Latin), and partial matches using Damerau-Levenshtein distance, so queries like `охирд` or `ohrid` still resolve correctly
 - **Carrier filtering** — filter results by transport company
 - **Date slider** — quickly switch between days directly on the results page
 
@@ -94,11 +97,31 @@ When a question is submitted to `POST /ai/ask`, the backend processes it in four
 
 **1. Normalization** — the input text is passed through `normalizeText()`, which converts it to lowercase and strips diacritics. This ensures that queries work regardless of how the user types them (e.g. `Охрид`, `ОХРИД`, and `ohrid` are all treated the same).
 
-**2. Intent detection** — `detectIntent()` scans the normalized text for Macedonian keywords and returns one of five intents: `cheapest`, `next`, `earliest`, `return`, `general`
+**2. Intent detection** — `detectIntent()` scans the normalized text for Macedonian keywords and returns one of seven intents: `cheapest`, `next`, `earliest`, `return`, `carrier_list`, `carrier_routes`, `general`
 
 **3. Route search** — `searchRoutes()` filters the route data by destination (if the city name appears in the question) and by carrier (if a carrier name is mentioned). It then sorts or filters the results according to the detected intent — for example, sorting by price for `cheapest`, or filtering by departure time for `next`.
 
 **4. Answer formatting** — `formatAnswer()` takes the intent and the top matching route and constructs a human-readable response in Macedonian. If no routes are found, a fallback message is returned.
+
+### Carrier-aware queries
+
+The assistant can now resolve carrier-specific questions in two directions:
+
+- **"Кои превозници возат до Охрид?"** — the `carrier_list` intent detects the city and returns all carriers that operate to that destination.
+- **"До каде вози Галеб?"** — the `carrier_routes` intent detects the carrier name and returns all destinations it serves.
+- **"Галеб Охрид следен автобус"** — a combined query: the assistant strips the carrier name from the input, detects the remaining city, and filters routes by both.
+
+Carrier detection uses a longest-match-first strategy to avoid ambiguity — for example, `ГАЛЕБ ОХРИД` is correctly identified as the carrier `ГАЛЕБ ОХРИД` rather than treating `ОХРИД` as the destination.
+
+### Fuzzy matching
+
+Both city and carrier detection use fuzzy string matching based on **Damerau-Levenshtein distance** (`damLev`), which accounts for single-character insertions, deletions, substitutions, and transpositions. The allowed edit distance scales with word length (roughly 30–35% of the keyword length), so short words get a tighter threshold than long ones.
+
+To prevent false positives, short words under 4 characters are excluded from fuzzy city matching entirely — this avoids common Macedonian words like `да` or `не` being misidentified as substrings of a destination or carrier name.
+
+Carrier names are matched using a sliding window over the query tokens, with multi-word carriers evaluated word-by-word. Single-word carriers require a minimum length of 4 characters before fuzzy matching is attempted.
+
+City names are matched whole-word first (via regex boundary check), with fuzzy fallback only if no exact match is found.
 
 ## Project Structure
 
@@ -113,6 +136,9 @@ OMIO-Clone-Intercity-Transport-App/
 │   │   └── server/                 # Express server setup and API routes
 │   │
 │   ├── utils/                      # Backend helper and filtering utilities
+│   │   ├── normalize.ts            # Text normalization (lowercase, diacritics)
+│   │   ├── fuzzy.ts                # Damerau-Levenshtein + fuzzyMatch helpers
+│   │   └── intentKeywords.ts       # Keyword lists for intent detection
 │   └── Dockerfile                  # Backend Docker configuration
 │
 ├── frontend/
@@ -205,6 +231,14 @@ The `useRouteBadges` composable needed to assign three distinct badges without c
 
 Leaflet is not built for reactive frameworks and expects to control the DOM directly. Mounting a Leaflet map inside a Vue component required careful lifecycle management — the map is initialized inside `onMounted` and destroyed in `onUnmounted` to prevent memory leaks and duplicate map instances when the component re-renders.
 
+### Disambiguating carriers from city names
+
+Some carrier names contain city names (e.g. `ГАЛЕБ ОХРИД`), which caused the city detector to trigger before the carrier was identified. The solution was to run carrier detection first, strip the matched carrier tokens from the query, and only then run city detection on the remaining words. Carrier matching uses a longest-match-first strategy so that multi-word carrier names always win over their constituent city substrings.
+
+### Preventing short-word false matches in fuzzy detection
+
+Common short Macedonian words (`да`, `не`, `до`) were occasionally matching as fuzzy substrings of destination or carrier names. The fix was to enforce a minimum word length of 4 characters before any fuzzy comparison is attempted, which eliminated these false positives without affecting legitimate short city names that are caught by the exact whole-word match pass.
+
 ## API Reference
 
 | Method | Endpoint                                | Description                                   |
@@ -216,6 +250,22 @@ Leaflet is not built for reactive frameworks and expects to control the DOM dire
 | `GET`  | `/api/destinations`                     | All unique destinations                       |
 | `GET`  | `/api/carriers`                         | All unique carriers                           |
 | `POST` | `/ai/ask`                               | AI assistant — accepts `{ question: string }` |
+
+### AI response shape
+
+The `/ai/ask` endpoint returns a structured object, not just a plain string:
+
+```json
+{
+  "answer": "Превозници за ОХРИД: ГАЛЕБ ОХРИД, КЛАСИК, ЕУРОЛИНИЈА",
+  "detectedCarrier": null,
+  "detectedCity": "ОХРИД",
+  "routes": [...],
+  "mode": "carrier_list"
+}
+```
+
+The `mode` field indicates how the query was resolved and can be one of: `carrier_list`, `carrier_routes`, `carrier_city`, or `general`.
 
 ## Advanced Web Design course project
 
