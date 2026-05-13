@@ -2,6 +2,7 @@
   <div class="chat-box">
     <!-- Message Bubble -->
     <button class="toggle-btn" @click="open = !open" aria-label="Отвори чет">
+<<<<<<< Updated upstream
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="34" height="34">
         <!-- chat bubble -->
         <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
@@ -11,11 +12,15 @@
         <circle cx="12" cy="11" r="1" fill="white" stroke="none" />
         <circle cx="15" cy="11" r="1" fill="white" stroke="none" />
       </svg>
+=======
+      <span class="icon"><i class="fa-solid fa-comment" style="color: white;"></i></span>
+>>>>>>> Stashed changes
     </button>
 
     <div v-if="open" class="chat-panel">
       <!-- Header -->
       <div class="chat-header">
+<<<<<<< Updated upstream
         <div class="chat-avatar">
           <!-- AI Robot Icon -->
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
@@ -36,6 +41,9 @@
             <path d="M12 3v2" />
           </svg>
         </div>
+=======
+        <div class="chat-avatar"><i class="fa-solid fa-robot " style="color: white;"></i></div>
+>>>>>>> Stashed changes
         <div class="chat-header-info">
           <p class="chat-header-name">AI Асистент</p>
           <p class="chat-header-sub">Busly</p>
@@ -45,6 +53,7 @@
 
       <div class="chat-messages" ref="msgBox">
         <div v-for="(m, i) in messages" :key="i" class="msg-row" :class="{ user: m.role === 'you' }">
+<<<<<<< Updated upstream
           <div class="msg-icon" :class="m.role === 'you' ? 'user' : 'ai'">
             <!-- AI Robot Icon -->
             <svg
@@ -77,13 +86,18 @@
           </div>
           <div class="bubble" :class="m.role === 'you' ? 'user' : 'ai'">
             {{ m.text }}
+=======
+          <div class="msg-icon" :class="m.role === 'you' ? 'user' : 'ai'" style="background-color: lightblue;">
+            <i :class="m.role === 'you' ? 'fa-solid fa-user' : 'fa-solid fa-robot'" style="color: white;"></i>
+>>>>>>> Stashed changes
           </div>
+          <div class="bubble" :class="m.role === 'you' ? 'user' : 'ai'" v-html="m.text"></div>
         </div>
       </div>
 
       <div class="chat-input-row">
         <input v-model="text" class="chat-input" placeholder="Постави прашање..." @keyup.enter="send" />
-        <button class="send-btn" @click="send">➤</button>
+        <button class="send-btn" @click="send"><i class="fa-solid fa-paper-plane"></i></button>
       </div>
     </div>
   </div>
@@ -95,7 +109,7 @@ import { ref, nextTick } from "vue";
 const props = defineProps({ defaultOpen: { type: Boolean, default: false } });
 const open = ref(props.defaultOpen);
 const text = ref("");
-const messages = ref([{ role: "ai", text: "Здраво! Планираш патување? Ќе ти помогнам да ја најдеш најдобрата автобуска линија. 🚌" }]);
+const messages = ref([{ role: "ai", text: `Здраво! Планираш патување? Ќе ти помогнам да ја најдеш најдобрата автобуска линија.`}]);
 const msgBox = ref(null);
 const lastCity = ref("");
 

@@ -172,7 +172,7 @@ export function searchRoutes(data: BusRoute[], question: string): BusRoute[] {
 
 function formatAnswer(intent: Intent, route: BusRoute | undefined, hasDestination: boolean, destinationName: string): string {
   if (!hasDestination) {
-    return "Прашај ме за следна/најевтина линија, за повратна карта, за најраниот автобус или пак за превозник до твојата одбрана дестинација 😊";
+    return `Прашај ме за следна/најевтина линија, за повратна карта, за најраниот автобус или пак за превозник до твојата одбрана дестинација.`;
   }
   if (!route || intent === "general") {
     return `Што конкретно те интересира за ${destinationName}? Најевтина цена, следно/најрано поаѓање, повратна карта или информации за превозник?`;
@@ -182,7 +182,7 @@ function formatAnswer(intent: Intent, route: BusRoute | undefined, hasDestinatio
   if (intent === "return") return `Повратна карта за ${route.destination} има во ${route.time} часот (${route.returnPrice} ден.)`;
   if (intent === "earliest") return `Најраниот автобус за ${route.destination} е во ${route.time} часот (${route.price} ден.)`;
 
-  return "Прашај ме за следна/најевтина линија, за повратна карта, за најраниот автобус или пак за превозник до твојата одбрана дестинација 😊";
+  return `Прашај ме за следна/најевтина линија, за повратна карта, за најраниот автобус или пак за превозник до твојата одбрана дестинација.`;
 }
 
 export function askAI(question: string, context: string = "") {

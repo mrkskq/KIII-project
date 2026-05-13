@@ -14,6 +14,7 @@
             : 'bg-amber-300 text-amber-950 border-b border-amber-500',
       ]"
     >
+<<<<<<< Updated upstream
       <template v-if="badge === 'next'">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0">
           <circle cx="12" cy="12" r="9" />
@@ -35,6 +36,11 @@
         </svg>
         <span>Препорачано · Најевтина повратна</span>
       </template>
+=======
+      <span v-if="badge === 'next'" v-html="getNextLabel(r.time)"></span>
+      <span v-else-if="badge === 'cheapest'"><i class="fa-solid fa-sack-dollar"></i> Најевтина · Во еден правец</span>
+      <span v-else><i class="fa-solid fa-star"></i> Препорачано · Најевтина повратна</span>
+>>>>>>> Stashed changes
     </div>
 
     <div class="flex items-center gap-5 px-5 py-5">

@@ -9,6 +9,7 @@
     <div class="sticky top-0 z-50 bg-blue-700 text-white px-4 py-3 flex items-center">
       <RouterLink to="/" class="text-blue-200 hover:text-white"> ← Назад </RouterLink>
       <div class="flex items-center mx-auto">
+<<<<<<< Updated upstream
         <!-- <div class="px-4 py-1.5 rounded-l-full bg-white/10 text-blue-100 text-md font-bold backdrop-blur-md shadow-sm">🚏 Busly</div> -->
         <div class="px-4 py-1.5 rounded-l-full bg-white/10 text-blue-100 text-md font-bold backdrop-blur-md shadow-sm flex items-center gap-2">
           <svg class="w-5 h-5 text-blue-100 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
@@ -19,6 +20,9 @@
 
           Busly
         </div>
+=======
+        <div class="px-4 py-1.5 rounded-l-full bg-white/10 text-blue-100 text-md font-bold backdrop-blur-md shadow-sm"><i class="fa-solid fa-bus-simple"></i> Busly</div>
+>>>>>>> Stashed changes
         <div class="px-4 py-1.5 rounded-r-full bg-white/20 text-white text-md font-semibold backdrop-blur-md shadow-sm border-l border-white/10">СКОПЈЕ → {{ route.query.to }}</div>
       </div>
       <div class="text-blue-200 text-sm font-medium">

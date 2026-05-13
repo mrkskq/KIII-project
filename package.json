@@ -3,6 +3,7 @@
     "@vue/tsconfig": "^0.9.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.2.0",
     "@types/leaflet": "^1.9.21",
     "leaflet": "^1.9.4"
   }
