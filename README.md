@@ -24,6 +24,11 @@
 
 Search for bus routes departing from Skopje to any city in Macedonia and beyond - with real carrier names, departure times, and prices.
 
+<p float="left">
+  <img src="assets/screenshot1.png" width="48%" />
+  <img src="assets/screenshot2.png" width="48%" />
+</p>
+
 ## Features
 
 - **Bus route search** — search bus routes from Skopje to any city in Macedonia and beyond by destination, date, and number of passengers
@@ -127,6 +132,7 @@ City names are matched whole-word first (via regex boundary check), with fuzzy f
 
 ```
 OMIO-Clone-Intercity-Transport-App/
+├── assets/                         # Images for README.md preview
 ├── backend/
 │   ├── scraped_data/               # Scraped bus schedules and route data
 │   ├── src/
