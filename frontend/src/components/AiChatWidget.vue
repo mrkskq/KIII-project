@@ -1,13 +1,41 @@
 <template>
   <div class="chat-box">
+    <!-- Message Bubble -->
     <button class="toggle-btn" @click="open = !open" aria-label="Отвори чет">
-      <span class="icon">💬</span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="34" height="34">
+        <!-- chat bubble -->
+        <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
+
+        <!-- dots -->
+        <circle cx="9" cy="11" r="1" fill="white" stroke="none" />
+        <circle cx="12" cy="11" r="1" fill="white" stroke="none" />
+        <circle cx="15" cy="11" r="1" fill="white" stroke="none" />
+      </svg>
     </button>
 
     <div v-if="open" class="chat-panel">
       <!-- Header -->
       <div class="chat-header">
-        <div class="chat-avatar">🤖</div>
+        <div class="chat-avatar">
+          <!-- AI Robot Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+            <rect x="4" y="8" width="16" height="12" rx="1.5" />
+            <rect x="8" y="12" width="2.5" height="2.5" rx="0.5" fill="white" stroke="none" />
+            <rect x="13.5" y="12" width="2.5" height="2.5" rx="0.5" fill="white" stroke="none" />
+            <path d="M9 17.5h6" />
+            <path d="M8 8V6.5a4 4 0 0 1 8 0V8" />
+            <line x1="12" y1="3" x2="12" y2="5" />
+            <line x1="4" y1="13.5" x2="2" y2="13.5" />
+            <line x1="22" y1="13.5" x2="20" y2="13.5" />
+            >
+            <rect x="3" y="8" width="18" height="12" rx="3" />
+            <path d="M9 8V6a3 3 0 0 1 6 0v2" />
+            <circle cx="9" cy="14" r="1.5" fill="white" stroke="none" />
+            <circle cx="15" cy="14" r="1.5" fill="white" stroke="none" />
+            <path d="M9.5 17.5h5" />
+            <path d="M12 3v2" />
+          </svg>
+        </div>
         <div class="chat-header-info">
           <p class="chat-header-name">AI Асистент</p>
           <p class="chat-header-sub">Busly</p>
@@ -18,7 +46,34 @@
       <div class="chat-messages" ref="msgBox">
         <div v-for="(m, i) in messages" :key="i" class="msg-row" :class="{ user: m.role === 'you' }">
           <div class="msg-icon" :class="m.role === 'you' ? 'user' : 'ai'">
-            {{ m.role === "you" ? "👤" : "🤖" }}
+            <!-- AI Robot Icon -->
+            <svg
+              v-if="m.role !== 'you'"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              width="20"
+              height="20"
+            >
+              <rect x="4" y="8" width="16" height="12" rx="1.5" />
+              <rect x="8" y="12" width="2.5" height="2.5" rx="0.5" fill="white" stroke="none" />
+              <rect x="13.5" y="12" width="2.5" height="2.5" rx="0.5" fill="white" stroke="none" />
+              <path d="M9 17.5h6" />
+              <path d="M8 8V6.5a4 4 0 0 1 8 0V8" />
+              <line x1="12" y1="3" x2="12" y2="5" />
+              <line x1="4" y1="13.5" x2="2" y2="13.5" />
+              <line x1="22" y1="13.5" x2="20" y2="13.5" />
+            </svg>
+
+            <!-- User Person Icon -->
+            <svg v-else xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="15" height="15">
+              <circle cx="12" cy="8" r="4" />
+              <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
+            </svg>
           </div>
           <div class="bubble" :class="m.role === 'you' ? 'user' : 'ai'">
             {{ m.text }}
@@ -80,14 +135,18 @@ async function send() {
 }
 
 .toggle-btn {
-  width: 52px;
-  height: 52px;
+  width: 66px;
+  height: 66px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #1d4ed8, #1d4ed8);
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
   border: none;
   cursor: pointer;
-  font-size: 22px;
-  box-shadow: 0 4px 16px rgba(79, 70, 229, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 0;
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.35);
 }
 
 .chat-panel {
