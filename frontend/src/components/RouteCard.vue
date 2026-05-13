@@ -14,33 +14,9 @@
             : 'bg-amber-300 text-amber-950 border-b border-amber-500',
       ]"
     >
-<<<<<<< Updated upstream
-      <template v-if="badge === 'next'">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0">
-          <circle cx="12" cy="12" r="9" />
-          <polyline points="12 7 12 12 15 15" />
-        </svg>
-        <span>{{ getNextLabel(r.time) }}</span>
-      </template>
-
-      <template v-else-if="badge === 'cheapest'">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l7.1-1.01L12 2z" />
-        </svg>
-        <span>Најевтина · Во еден правец</span>
-      </template>
-
-      <template v-else>
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" stroke="none" style="flex-shrink: 0">
-          <path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l7.1-1.01L12 2z" />
-        </svg>
-        <span>Препорачано · Најевтина повратна</span>
-      </template>
-=======
       <span v-if="badge === 'next'" v-html="getNextLabel(r.time)"></span>
       <span v-else-if="badge === 'cheapest'"><i class="fa-solid fa-sack-dollar"></i> Најевтина · Во еден правец</span>
       <span v-else><i class="fa-solid fa-star"></i> Препорачано · Најевтина повратна</span>
->>>>>>> Stashed changes
     </div>
 
     <div class="flex items-center gap-5 px-5 py-5">

@@ -9,20 +9,7 @@
     <div class="sticky top-0 z-50 bg-blue-700 text-white px-4 py-3 flex items-center">
       <RouterLink to="/" class="text-blue-200 hover:text-white"> ← Назад </RouterLink>
       <div class="flex items-center mx-auto">
-<<<<<<< Updated upstream
-        <!-- <div class="px-4 py-1.5 rounded-l-full bg-white/10 text-blue-100 text-md font-bold backdrop-blur-md shadow-sm">🚏 Busly</div> -->
-        <div class="px-4 py-1.5 rounded-l-full bg-white/10 text-blue-100 text-md font-bold backdrop-blur-md shadow-sm flex items-center gap-2">
-          <svg class="w-5 h-5 text-blue-100 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
-            <path
-              d="M4 16c0 .88.39 1.67 1 2.22V20a1 1 0 001 1h1a1 1 0 001-1v-1h8v1a1 1 0 001 1h1a1 1 0 001-1v-1.78c.61-.55 1-1.34 1-2.22V6c0-3.5-3.58-4-8-4s-8 .5-8 4v10zm3.5 1a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm9 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zM19 11H5V6h14v5z"
-            />
-          </svg>
-
-          Busly
-        </div>
-=======
         <div class="px-4 py-1.5 rounded-l-full bg-white/10 text-blue-100 text-md font-bold backdrop-blur-md shadow-sm"><i class="fa-solid fa-bus-simple"></i> Busly</div>
->>>>>>> Stashed changes
         <div class="px-4 py-1.5 rounded-r-full bg-white/20 text-white text-md font-semibold backdrop-blur-md shadow-sm border-l border-white/10">СКОПЈЕ → {{ route.query.to }}</div>
       </div>
       <div class="text-blue-200 text-sm font-medium">

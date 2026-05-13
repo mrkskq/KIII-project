@@ -4,22 +4,6 @@
     <div class="flex-1 flex relative overflow-hidden" style="background-image: url(&quot;./public/avtobuskaskopje.gif&quot;); background-size: cover; background-position: center">
       <div class="absolute inset-0 bg-blue-950/70"></div>
 
-<<<<<<< Updated upstream
-    <div class="relative z-10 flex w-full max-w-6xl mx-auto px-8 items-center gap-16">
-      <!-- Лево — текст -->
-      <div class="flex-1 flex flex-col justify-center py-16 items-center text-center">
-        <div class="flex items-center gap-2 mb-8">
-          <!-- <span class="text-3xl">🚏</span> -->
-          <!-- <div class="flex-1 h-px bg-blue-400"></div> -->
-          <svg class="w-10 h-10 text-blue-400 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
-            <path
-              d="M4 16c0 .88.39 1.67 1 2.22V20a1 1 0 001 1h1a1 1 0 001-1v-1h8v1a1 1 0 001 1h1a1 1 0 001-1v-1.78c.61-.55 1-1.34 1-2.22V6c0-3.5-3.58-4-8-4s-8 .5-8 4v10zm3.5 1a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm9 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zM19 11H5V6h14v5z"
-            />
-          </svg>
-          <!-- <div class="flex-1 h-px bg-blue-400"></div> -->
-          <span class="text-blue-300 text-2xl font-bold tracking-widest uppercase">Busly</span>
-        </div>
-=======
       <div class="relative z-10 flex w-full max-w-6xl mx-auto px-8 items-center gap-16">
         <!-- Лево — текст -->
         <div class="flex-1 flex flex-col justify-center py-6 items-center text-center">
@@ -27,7 +11,6 @@
             <span><i class="fa-solid fa-bus-simple fa-lg" style="color: white;"></i></span>
             <span class="text-blue-300 text-xl font-bold tracking-widest uppercase">Busly</span>
           </div>
->>>>>>> Stashed changes
 
           <h1 class="text-white text-5xl font-black leading-none tracking-tight mb-4">
             Автобуски<br />линии низ<br />
