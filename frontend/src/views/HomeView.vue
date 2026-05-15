@@ -52,13 +52,13 @@
     <!-- Footer -->
     <AppFooter />
   </div>
-  <AiChatWidget />
+  <ChatWidget/>
 </template>
 
 <script setup lang="ts">
 import { useRouter } from "vue-router";
 import SearchForm from "../components/SearchForm.vue";
-import AiChatWidget from "../components/AiChatWidget.vue";
+import ChatWidget from "../components/ChatWidget.vue";
 import AppFooter from '../components/AppFooter.vue';
 
 const router = useRouter();

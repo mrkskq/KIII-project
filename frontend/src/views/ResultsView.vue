@@ -53,7 +53,7 @@
       </div>
     </div>
   </div>
-  <AiChatWidget :defaultOpen="true" />
+  <ChatWidget :defaultOpen="true" />
 </template>
 
 <script setup lang="ts">
@@ -66,7 +66,7 @@ import RouteCard from "../components/RouteCard.vue";
 import RouteMap from "../components/RouteMap.vue";
 import SearchForm from "../components/SearchForm.vue";
 import DateSlider from "../components/DateSlider.vue";
-import AiChatWidget from "../components/AiChatWidget.vue";
+import ChatWidget from "../components/ChatWidget.vue";
 
 const route = useRoute();
 const store = useBusRouteStore();

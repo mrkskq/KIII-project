@@ -185,7 +185,7 @@ function formatAnswer(intent: Intent, route: BusRoute | undefined, hasDestinatio
   return `Прашај ме за следна/најевтина линија, за повратна карта, за најраниот автобус или пак за превозник до твојата одбрана дестинација.`;
 }
 
-export function askAI(question: string, context: string = "") {
+export function askruleBased(question: string, context: string = "") {
   const q = normalizeText(question);
   const intent = detectIntent(q);
 

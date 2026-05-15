@@ -12,7 +12,7 @@
 3. [Tech Stack](#tech-stack)
 4. [Architecture Overview](#architecture-overview)
 5. [Search Flow](#search-flow)
-6. [AI Assistant](#ai-assistant)
+6. [Rule-based chat assistant](#rule-based-chat-assistant)
 7. [Project Structure](#project-structure)
 8. [Getting Started](#getting-started)
 9. [Docker and Deployment](#docker-and-deployment)
@@ -34,14 +34,14 @@ Search for bus routes departing from Skopje to any city in Macedonia and beyond 
 - **Bus route search** — search bus routes from Skopje to any city in Macedonia and beyond by destination, date, and number of passengers
 - **Route recommendations** — each search surfaces three highlighted routes: the cheapest one-way fare, the next available departure, and the best return ticket option
 - **Interactive map** — Leaflet-powered route visualization from Skopje to the selected destination, with OSRM routing
-- **AI travel assistant** — a chat widget that understands natural language questions about routes, including:
+- **Rule-based chat assistant** — a rule-based chat widget that understands natural language questions about routes, including:
   - Next departure to a destination
   - Cheapest available fare
   - Earliest morning departure
   - Best return ticket option
   - Which carriers operate to a given city
   - All destinations served by a specific carrier
-- **Fuzzy search** — the AI assistant tolerates typos, mixed scripts (Cyrillic/Latin), and partial matches using Damerau-Levenshtein distance, so queries like `охирд` or `ohrid` still resolve correctly
+- **Fuzzy search** — the rule-based assistant tolerates typos, mixed scripts (Cyrillic/Latin), and partial matches using Damerau-Levenshtein distance, so queries like `охирд` or `ohrid` still resolve correctly
 - **Carrier filtering** — filter results by transport company
 - **Date slider** — quickly switch between days directly on the results page
 
@@ -63,19 +63,19 @@ The application follows a standard client-server architecture, with the Vue fron
 Browser
   └── Vue 3 Frontend (port 5173)
         ├── Pinia Store → GET /api/routes, /api/destinations, /api/carriers
-        ├── AiChatWidget → POST /ai/ask
+        ├── ChatWidget → POST /chat/ask
         └── RouteMap → OSRM (external, for road routing)
 
 Express Backend (port 3001)
   ├── server.ts → /api/* routes
-  ├── ai.routes.ts → /ai/ask
+  ├── chat.routes.ts → /chat/ask
   ├── filterRoutes.ts → query filtering logic
   └── scraped_data/bus_routes.json → static data source
 ```
 
 When the user performs a search, the Vue frontend sends an HTTP request via the Pinia store to the Express backend. The backend reads from a pre-scraped JSON file, applies the requested filters, and returns the results. No database is involved — all data lives in a static JSON file that is populated once by the scraper.
 
-The AI assistant follows the same pattern: the frontend sends the user's question to `POST /ai/ask`, the backend processes it using intent detection logic, and returns both a natural language answer and the matching routes.
+The rule-based chat assistant follows the same pattern: the frontend sends the user's question to `POST /chat/ask`, the backend processes it using intent detection logic, and returns both a natural language answer and the matching routes.
 
 Map routing is handled client-side. Once the user selects a route, the `RouteMap` component uses Leaflet to render the map and queries the public OSRM API to draw the road path from Skopje to the destination.
 
@@ -92,13 +92,13 @@ The following steps describe what happens from the moment a user enters a destin
 7. **Map render** — the first route is automatically selected, and `RouteMap` fetches the road path from OSRM and renders it on a Leaflet map alongside the results list.
 8. **Date switching** — the `DateSlider` component above the results allows the user to move to the next or previous day, which triggers a new store request with the updated date.
 
-## AI Assistant
+## Rule-based chat assistant
 
-The AI assistant is intentionally built without any external AI APIs. It runs entirely on the backend using a keyword-based intent detection system written in TypeScript.
+The rule-based chat assistant is intentionally built without any external APIs. It runs entirely on the backend using a keyword-based intent detection system written in TypeScript.
 
 ### How it works
 
-When a question is submitted to `POST /ai/ask`, the backend processes it in four steps:
+When a question is submitted to `POST /chat/ask`, the backend processes it in four steps:
 
 **1. Normalization** — the input text is passed through `normalizeText()`, which converts it to lowercase and strips diacritics. This ensures that queries work regardless of how the user types them (e.g. `Охрид`, `ОХРИД`, and `ohrid` are all treated the same).
 
@@ -137,7 +137,7 @@ OMIO-Clone-Intercity-Transport-App/
 │   ├── scraped_data/               # Scraped bus schedules and route data
 │   ├── src/
 │   │   ├── types/                  # Shared TypeScript interfaces/models
-│   │   ├── ai/                     # AI assistant logic and endpoints
+│   │   ├── chat/                     # Rule-based chat assistant logic and endpoints
 │   │   ├── scraper/                # Web scraping functionality
 │   │   └── server/                 # Express server setup and API routes
 │   │
@@ -223,7 +223,7 @@ Using Docker means the application requires no local Node.js installation and ru
 
 ### Handling Cyrillic text in search and filtering
 
-Bus destinations in the scraped data are stored in Macedonian Cyrillic (`ОХРИД`, `БИТОЛА`). The AI assistant, however, needs to match user queries that may be typed in either Cyrillic or Latin script, in any casing, and with or without diacritics. The solution was a `normalizeText()` utility that lowercases the input and strips all diacritics before any comparison is made. This ensures that `Охрид`, `ОХРИД`, and `ohrid` all match the same routes.
+Bus destinations in the scraped data are stored in Macedonian Cyrillic (`ОХРИД`, `БИТОЛА`). The rule-based assistant, however, needs to match user queries that may be typed in either Cyrillic or Latin script, in any casing, and with or without diacritics. The solution was a `normalizeText()` utility that lowercases the input and strips all diacritics before any comparison is made. This ensures that `Охрид`, `ОХРИД`, and `ohrid` all match the same routes.
 
 ### Inconsistent scraped data
 
@@ -255,11 +255,11 @@ Common short Macedonian words (`да`, `не`, `до`) were occasionally matchin
 | `GET`  | `/api/routes?minPrice=200&maxPrice=800` | Filter by price range (MKD)                   |
 | `GET`  | `/api/destinations`                     | All unique destinations                       |
 | `GET`  | `/api/carriers`                         | All unique carriers                           |
-| `POST` | `/ai/ask`                               | AI assistant — accepts `{ question: string }` |
+| `POST` | `/chat/ask`                             | Rule-based chat assistant — accepts `{ question: string }` |
 
-### AI response shape
+### Rule-based response shape
 
-The `/ai/ask` endpoint returns a structured object, not just a plain string:
+The `/chat/ask` endpoint returns a structured object, not just a plain string:
 
 ```json
 {
@@ -275,4 +275,4 @@ The `mode` field indicates how the query was resolved and can be one of: `carrie
 
 ## Advanced Web Design course project
 
-The goal of Busly is to simulate a modern intercity transport platform similar to OMIO, focused on bus transportation in Macedonia and nearby regions. The project combines frontend development, backend APIs, web scraping, Docker containerization, map visualization, and lightweight AI-based route assistance into a single full-stack application.
+The goal of Busly is to simulate a modern intercity transport platform similar to OMIO, focused on bus transportation in Macedonia and nearby regions. The project combines frontend development, backend APIs, web scraping, Docker containerization, map visualization, and lightweight rule-based chat route assistance into a single full-stack application.

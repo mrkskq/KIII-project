@@ -10,7 +10,7 @@
       <div class="chat-header">
         <div class="chat-avatar"><i class="fa-solid fa-robot " style="color: white;"></i></div>
         <div class="chat-header-info">
-          <p class="chat-header-name">AI Асистент</p>
+          <p class="chat-header-name">Chat Асистент</p>
           <p class="chat-header-sub">Busly</p>
         </div>
         <div class="online-dot" />
@@ -18,10 +18,10 @@
 
       <div class="chat-messages" ref="msgBox">
         <div v-for="(m, i) in messages" :key="i" class="msg-row" :class="{ user: m.role === 'you' }">
-          <div class="msg-icon" :class="m.role === 'you' ? 'user' : 'ai'" style="background-color: lightblue;">
+          <div class="msg-icon" :class="m.role === 'you' ? 'user' : 'chat'" style="background-color: lightblue;">
             <i :class="m.role === 'you' ? 'fa-solid fa-user' : 'fa-solid fa-robot'" style="color: white;"></i>
           </div>
-          <div class="bubble" :class="m.role === 'you' ? 'user' : 'ai'" v-html="m.text"></div>
+          <div class="bubble" :class="m.role === 'you' ? 'user' : 'chat'" v-html="m.text"></div>
         </div>
       </div>
 
@@ -39,7 +39,7 @@ import { ref, nextTick } from "vue";
 const props = defineProps({ defaultOpen: { type: Boolean, default: false } });
 const open = ref(props.defaultOpen);
 const text = ref("");
-const messages = ref([{ role: "ai", text: `Здраво! Планираш патување? Ќе ти помогнам да ја најдеш најдобрата автобуска линија.`}]);
+const messages = ref([{ role: "chat", text: `Здраво! Планираш патување? Ќе ти помогнам да ја најдеш најдобрата автобуска линија.`}]);
 const msgBox = ref(null);
 const lastCity = ref("");
 
@@ -51,7 +51,7 @@ async function send() {
   await nextTick();
   if (msgBox.value) msgBox.value.scrollTop = msgBox.value.scrollHeight;
 
-  const res = await fetch("http://localhost:3001/ai/ask", {
+  const res = await fetch("http://localhost:3001/chat/ask", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ question: userMsg, context: lastCity.value }),
@@ -60,7 +60,7 @@ async function send() {
 
   if (data.detectedCity) lastCity.value = data.detectedCity;
 
-  messages.value.push({ role: "ai", text: data.answer });
+  messages.value.push({ role: "chat", text: data.answer });
   await nextTick();
   if (msgBox.value) msgBox.value.scrollTop = msgBox.value.scrollHeight;
 }
@@ -179,7 +179,7 @@ async function send() {
   flex-shrink: 0;
 }
 
-.msg-icon.ai {
+.msg-icon.chat {
   background: linear-gradient(135deg, #1d4ed8, #1d4ed8);
 }
 .msg-icon.user {
@@ -194,7 +194,7 @@ async function send() {
   line-height: 1.5;
 }
 
-.bubble.ai {
+.bubble.chat {
   background: #fff;
   color: #1a1a1a;
   border-bottom-left-radius: 4px;

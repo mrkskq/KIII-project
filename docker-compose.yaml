@@ -2,7 +2,7 @@ version: "3.9"
 services:
   backend:
     build: ./backend
-    container_name: omio-backend
+    container_name: busly-backend
     ports:
       - "3001:3001"
     volumes:
@@ -13,7 +13,7 @@ services:
 
   frontend:
     build: ./frontend
-    container_name: omio-frontend
+    container_name: busly-frontend
     ports:
       - "5173:5173"
     volumes:
