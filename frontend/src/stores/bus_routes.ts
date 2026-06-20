@@ -3,7 +3,7 @@ import { ref } from "vue";
 import axios from "axios";
 import type { BusRoute } from "../types/bus_route.ts";
 
-const API = "http://localhost:3001/api";
+const API = import.meta.env.VITE_API_URL || "http://localhost:3001/api";
 
 export const useBusRouteStore = defineStore("bus_routes", () => {
   const routes = ref<BusRoute[]>([]);

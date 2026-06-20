@@ -4,7 +4,7 @@ metadata:
   name: frontend-config
   namespace: busly
 data:
-  VITE_API_URL: http://backend:3001
+  VITE_API_URL: http://busly.local/api
 
 ---
 apiVersion: apps/v1

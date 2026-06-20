@@ -6,7 +6,7 @@ metadata:
 data:
   NODE_ENV: production
   MONGO_URI: mongodb://mongo:27017/busly
-  FRONTEND_URL: http://localhost:5173
+  FRONTEND_URL: http://busly.local
 
 ---
 apiVersion: apps/v1
