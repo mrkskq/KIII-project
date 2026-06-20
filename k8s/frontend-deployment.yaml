@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: busly
+data:
+  VITE_API_URL: http://backend:3001
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  namespace: busly
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+        - name: frontend
+          image: mrkskq44/busly-frontend:latest
+          ports:
+            - containerPort: 5173
+          envFrom:
+            - configMapRef:
+                name: frontend-config
