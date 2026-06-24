@@ -5,7 +5,6 @@ metadata:
   namespace: busly
 data:
   NODE_ENV: production
-  MONGO_URI: mongodb://mongo:27017/busly
   FRONTEND_URL: http://busly.local
 
 ---
@@ -32,3 +31,9 @@ spec:
           envFrom:
             - configMapRef:
                 name: backend-config
+          env:
+            - name: MONGO_URI
+              valueFrom:
+                secretKeyRef:
+                  name: backend-secret
+                  key: MONGO_URI
