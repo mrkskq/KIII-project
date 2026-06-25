@@ -6,7 +6,7 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-7.x-47a248?style=flat-square&logo=mongodb)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-k3d-326ce5?style=flat-square&logo=kubernetes)
 
-Busly is a web application for searching intercity bus routes from Skopje to cities across Macedonia and the region. The app is fully containerized, orchestrated with Docker Compose and Kubernetes, and has a CI/CD pipeline via GitHub Actions.
+Busly is a web application for searching intercity bus routes from Skopje to cities across Macedonia and the region. The app is fully containerized, orchestrated with Docker Compose and Kubernetes, and has a CI pipeline via GitHub Actions.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Busly is a web application for searching intercity bus routes from Skopje to cit
 2. [Tech Stack](#tech-stack)
 3. [Local Setup](#local-setup)
 4. [Docker and Docker Compose](#docker-and-docker-compose)
-5. [CI/CD — GitHub Actions](#cicd--github-actions)
+5. [CI — GitHub Actions](#ci--github-actions)
 6. [Kubernetes](#kubernetes)
 
 ---
@@ -47,7 +47,7 @@ MongoDB (port 27017)
 | Database         | MongoDB 7                                          |
 | Map              | Leaflet + OSRM                                     |
 | Containerization | Docker + Docker Compose                            |
-| CI/CD            | GitHub Actions → DockerHub                         |
+| CI               | GitHub Actions → DockerHub                         |
 | Orchestration    | Kubernetes (k3d), Ingress (Traefik)                |
 
 ---
@@ -99,7 +99,7 @@ MongoDB data is stored in the named volume `mongo_data` and survives container r
 
 ---
 
-## CI/CD — GitHub Actions
+## CI — GitHub Actions
 
 On every push to the `master` branch, GitHub Actions automatically:
 
@@ -125,15 +125,19 @@ The application is deployed on a local k3d cluster in a dedicated `busly` namesp
 ### Create the cluster
 
 ```bash
-k3d cluster create busly-cluster
-kubectl apply -f k8s/namespace.yaml
+k3d cluster create busly-cluster --port "80:80@loadbalancer"
+kubectl config set-cluster k3d-busly-cluster --server=https://127.0.0.1:<port>
+k3d kubeconfig get busly-cluster # to see the port
 ```
 
 ### Apply all manifests
 
 ```bash
+kubectl apply -f k8s/namespace.yaml
+kubectl apply -f k8s/mongo-secret.yaml
 kubectl apply -f k8s/mongo-statefulset.yaml
 kubectl apply -f k8s/mongo-service.yaml
+kubectl apply -f k8s/backend-secret.yaml
 kubectl apply -f k8s/backend-deployment.yaml
 kubectl apply -f k8s/backend-service.yaml
 kubectl apply -f k8s/frontend-deployment.yaml
@@ -152,8 +156,10 @@ kubectl exec -it -n busly deployment/backend -- npm run seed
 | File                       | Description                                |
 | -------------------------- | ------------------------------------------ |
 | `namespace.yaml`           | Namespace `busly`                          |
+| `mongo-secret.yaml`        | Secret for MongoDB (MONGO_INITDB_DATABASE) |
 | `mongo-statefulset.yaml`   | StatefulSet + ConfigMap for MongoDB        |
 | `mongo-service.yaml`       | Headless Service for MongoDB               |
+| `backend-secret.yaml`      | Secret for backend (MONGO_URI)             |
 | `backend-deployment.yaml`  | Deployment + ConfigMap for backend         |
 | `backend-service.yaml`     | ClusterIP Service for backend (port 3001)  |
 | `frontend-deployment.yaml` | Deployment + ConfigMap for frontend        |
