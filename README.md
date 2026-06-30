@@ -14,8 +14,9 @@ Busly is a web application for searching intercity bus routes from Skopje to cit
 2. [Tech Stack](#tech-stack)
 3. [Local Setup](#local-setup)
 4. [Docker and Docker Compose](#docker-and-docker-compose)
-5. [CI — GitHub Actions](#ci--github-actions)
-6. [Kubernetes](#kubernetes)
+5. [Environment Variables](#environment-variables)
+6. [CI — GitHub Actions](#ci--github-actions)
+7. [Kubernetes](#kubernetes)
 
 ---
 
@@ -64,6 +65,7 @@ MongoDB (port 27017)
 ```bash
 git clone https://github.com/mrkskq/KIII-project
 cd KIII-project
+cp .env.example .env
 docker compose up --build
 ```
 
@@ -99,6 +101,36 @@ MongoDB data is stored in the named volume `mongo_data` and survives container r
 
 ---
 
+## Environment Variables
+
+All configuration values are stored in a `.env` file at the project root, loaded automatically by Docker Compose. A template is provided as `.env.example`:
+
+```env
+# MongoDB
+MONGO_INITDB_DATABASE=busly
+MONGO_PORT=27017
+
+# Backend
+NODE_ENV=development
+MONGO_URI=mongodb://mongo:27017/busly
+FRONTEND_URL=http://localhost:5173
+BACKEND_PORT=3001
+
+# Frontend
+VITE_API_URL=http://localhost:3001
+FRONTEND_PORT=5173
+```
+
+Copy it before running the project:
+
+```bash
+cp .env.example .env
+```
+
+The actual `.env` file is excluded from version control via `.gitignore`.
+
+---
+
 ## CI — GitHub Actions
 
 On every push to the `master` branch, GitHub Actions automatically:
@@ -125,19 +157,15 @@ The application is deployed on a local k3d cluster in a dedicated `busly` namesp
 ### Create the cluster
 
 ```bash
-k3d cluster create busly-cluster --port "80:80@loadbalancer"
-kubectl config set-cluster k3d-busly-cluster --server=https://127.0.0.1:<port>
-k3d kubeconfig get busly-cluster # to see the port
+k3d cluster create busly-cluster
+kubectl apply -f k8s/namespace.yaml
 ```
 
 ### Apply all manifests
 
 ```bash
-kubectl apply -f k8s/namespace.yaml
-kubectl apply -f k8s/mongo-secret.yaml
 kubectl apply -f k8s/mongo-statefulset.yaml
 kubectl apply -f k8s/mongo-service.yaml
-kubectl apply -f k8s/backend-secret.yaml
 kubectl apply -f k8s/backend-deployment.yaml
 kubectl apply -f k8s/backend-service.yaml
 kubectl apply -f k8s/frontend-deployment.yaml
@@ -156,10 +184,8 @@ kubectl exec -it -n busly deployment/backend -- npm run seed
 | File                       | Description                                |
 | -------------------------- | ------------------------------------------ |
 | `namespace.yaml`           | Namespace `busly`                          |
-| `mongo-secret.yaml`        | Secret for MongoDB (MONGO_INITDB_DATABASE) |
 | `mongo-statefulset.yaml`   | StatefulSet + ConfigMap for MongoDB        |
 | `mongo-service.yaml`       | Headless Service for MongoDB               |
-| `backend-secret.yaml`      | Secret for backend (MONGO_URI)             |
 | `backend-deployment.yaml`  | Deployment + ConfigMap for backend         |
 | `backend-service.yaml`     | ClusterIP Service for backend (port 3001)  |
 | `frontend-deployment.yaml` | Deployment + ConfigMap for frontend        |
